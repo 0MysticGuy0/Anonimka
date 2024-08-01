@@ -1,0 +1,32 @@
+server:
+  port:
+    8100
+
+bot:
+  username: anonimka_ru_chatbot
+  token: 7221258678:AAELInVCxyVbqlAkJyLfAhTMkJnWHjra-Qo
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9095
+    producer:
+      bootstrap-servers: localhost:9095
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      acks: all
+      properties:
+        enable:
+          idempotence: true
+
+kafka:
+  topics:
+    text-message:
+      name: text-message-topic
+      partitions: 5
+      replication-factor: 1
+      min-insync-replicas: 1
+    command-message:
+      name: command-message-topic
+      partitions: 3
+      replication-factor: 1
+      min-insync-replicas: 1
