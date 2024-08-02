@@ -34,3 +34,5 @@ kafka:
       name: command-message-topic
     answer-message:
       name: answer-message-topic
+    file-message:
+      name: file-message-topic

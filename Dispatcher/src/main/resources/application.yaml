@@ -46,3 +46,8 @@ kafka:
       partitions: 5
       replication-factor: 1
       min-insync-replicas: 1
+    file-message:
+      name: file-message-topic
+      partitions: 3
+      replication-factor: 1
+      min-insync-replicas: 1

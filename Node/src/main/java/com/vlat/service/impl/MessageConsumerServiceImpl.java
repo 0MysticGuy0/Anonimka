@@ -1,6 +1,7 @@
 package com.vlat.service.impl;
 
 import com.vlat.kafkaMessage.CommandMessage;
+import com.vlat.kafkaMessage.FileMessage;
 import com.vlat.kafkaMessage.TextMessage;
 import com.vlat.service.MessageConsumerService;
 import com.vlat.service.MessageProcessorService;
@@ -28,6 +29,13 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
     public void getCommandMessage(CommandMessage commandMessage) {
         messageProcessorService.processCommandMessage(commandMessage);
         System.out.println("-=-=-| Received command-message");
+    }
+
+    @Override
+    @KafkaListener(topics = "file-message-topic")
+    public void getFileMessage(FileMessage fileMessage) {
+        messageProcessorService.processFileMessage(fileMessage);
+        System.out.println("-=-=-| Received file-message");
     }
 
 }

@@ -1,5 +1,6 @@
 package com.vlat.service.impl;
 
+import com.vlat.kafkaMessage.AnswerFileMessage;
 import com.vlat.kafkaMessage.AnswerTextMessage;
 import com.vlat.service.AnswerConsumerService;
 import com.vlat.service.BotService;
@@ -20,5 +21,12 @@ public class AnswerConsumerServiceImpl implements AnswerConsumerService {
     public void getAnswerTextMessage(AnswerTextMessage answerTextMessage) {
         System.out.println("-=-=-| Received answer-message");
         botService.sendMessage(answerTextMessage);
+    }
+
+    @Override
+    @KafkaHandler
+    public void getAnswerFileMessage(AnswerFileMessage answerFileMessage) {
+        System.out.println("-=-=-| Received file-message");
+        botService.sendMessage(answerFileMessage);
     }
 }

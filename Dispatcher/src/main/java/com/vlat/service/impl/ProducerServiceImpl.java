@@ -1,6 +1,7 @@
 package com.vlat.service.impl;
 
 import com.vlat.kafkaMessage.CommandMessage;
+import com.vlat.kafkaMessage.FileMessage;
 import com.vlat.kafkaMessage.TextMessage;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
@@ -14,11 +15,14 @@ public class ProducerServiceImpl implements ProducerService {
 
     private final KafkaTemplate<String, TextMessage> textMessageKafkaTemplate;
     private final KafkaTemplate<String, CommandMessage> commandMessageKafkaTemplate;
+    private final KafkaTemplate<String, FileMessage> fileMessageKafkaTemplate;
 
     @Value("${kafka.topics.text-message.name}")
     private String textMessageTopic;
     @Value("${kafka.topics.command-message.name}")
     private String commandMessageTopic;
+    @Value("${kafka.topics.file-message.name}")
+    private String fileMessageTopic;
 
     @Override
     public void produceTextMessage(TextMessage textMessage) {
@@ -29,5 +33,10 @@ public class ProducerServiceImpl implements ProducerService {
     @Override
     public void produceCommandMessage(CommandMessage commandMessage) {
         commandMessageKafkaTemplate.send(commandMessageTopic, commandMessage.getAuthorId(), commandMessage);
+    }
+
+    @Override
+    public void produceFileMessage(FileMessage fileMessage) {
+        fileMessageKafkaTemplate.send(fileMessageTopic, fileMessage.getAuthorId(), fileMessage);
     }
 }

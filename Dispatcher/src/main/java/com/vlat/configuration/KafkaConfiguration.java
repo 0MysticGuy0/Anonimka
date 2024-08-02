@@ -50,4 +50,17 @@ public class KafkaConfiguration {
                 .build();
     }
 
+    @Bean
+    public NewTopic fileMessageTopic(@Value("${kafka.topics.file-message.name}") String topicName,
+                                     @Value("${kafka.topics.file-message.partitions}") Integer partitions,
+                                     @Value("${kafka.topics.file-message.replication-factor}") Integer replicationFactor,
+                                     @Value("${kafka.topics.file-message.min-insync-replicas}") String minInsync ){
+        return TopicBuilder
+                .name(topicName)
+                .partitions(partitions)
+                .replicas(replicationFactor)
+                .configs(Map.of("min.insync.replicas",minInsync))
+                .build();
+    }
+
 }
