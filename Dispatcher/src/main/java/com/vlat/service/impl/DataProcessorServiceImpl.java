@@ -8,6 +8,8 @@ import com.vlat.service.DataProcessorService;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.telegram.telegrambots.meta.api.methods.GetFile;
+import org.telegram.telegrambots.meta.api.methods.send.SendSticker;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 
@@ -37,6 +39,8 @@ public class DataProcessorServiceImpl implements DataProcessorService {
                 botService.sendMessage(message.getChatId().toString(),
                         "<!Неподдерживаемый тип сообщения!>", message.getMessageId());
             }
+            //Sticker Photo Video Voice VideoNote-fileId
+
 
         }catch (Exception ex){
             System.out.println("-=-=-| ERROR IN DataProcessorServiceImpl - processUpdate:\n" + ex);

@@ -6,4 +6,5 @@ public interface BotCommandsService {
     boolean isCommand(String text);
     String getCommandInfo(BotCommands botCommand);
     String getAllCommandsInfo();
+    BotCommands getBotCommand(String textCommand);
 }

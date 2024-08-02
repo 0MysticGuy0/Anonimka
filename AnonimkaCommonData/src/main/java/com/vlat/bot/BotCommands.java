@@ -19,4 +19,6 @@ public enum BotCommands {
     public String toString() {
         return syntax;
     }
+
+
 }

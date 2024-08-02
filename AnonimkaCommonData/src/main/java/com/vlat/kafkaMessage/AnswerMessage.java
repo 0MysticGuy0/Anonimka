@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CommandMessage implements Serializable {
-    private String command;
-    private String authorId;
+public class AnswerMessage implements Serializable {
+    protected String receiverChatId;
+    protected Integer replyToMessageId;
 }

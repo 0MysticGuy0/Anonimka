@@ -1,6 +1,8 @@
 package com.vlat.service.impl;
 
 import com.vlat.controller.AnonimkaBot;
+import com.vlat.kafkaMessage.AnswerMessage;
+import com.vlat.kafkaMessage.AnswerTextMessage;
 import com.vlat.service.BotService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,5 +33,20 @@ public class BotServiceImpl implements BotService {
         SendMessage sendMessage = new SendMessage(chatId, text);
         sendMessage.setReplyToMessageId(replyToId);
         sendMessage(sendMessage);
+    }
+
+    @Override
+    public void sendMessage(AnswerMessage answerMessage) {
+        if (answerMessage instanceof AnswerTextMessage){
+            sendTextAnswer((AnswerTextMessage) answerMessage);
+        }
+    }
+
+    private void sendTextAnswer(AnswerTextMessage answerTextMessage){
+        String receiverChatId = answerTextMessage.getReceiverChatId();
+        Integer replyToMessageId = answerTextMessage.getReplyToMessageId();
+        String text = answerTextMessage.getText();
+
+        sendMessage(receiverChatId, text, replyToMessageId);
     }
 }

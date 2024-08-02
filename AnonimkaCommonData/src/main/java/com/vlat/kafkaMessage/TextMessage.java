@@ -8,6 +8,7 @@ import java.io.Serializable;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class TextMessage implements Serializable {
     private String text;
     private String authorId;

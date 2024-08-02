@@ -23,11 +23,25 @@ public class KafkaConfiguration {
                 .configs(Map.of("min.insync.replicas",minInsync))
                 .build();
     }
+
     @Bean
     public NewTopic commandMessageTopic(@Value("${kafka.topics.command-message.name}") String topicName,
                                      @Value("${kafka.topics.command-message.partitions}") Integer partitions,
                                      @Value("${kafka.topics.command-message.replication-factor}") Integer replicationFactor,
                                      @Value("${kafka.topics.command-message.min-insync-replicas}") String minInsync ){
+        return TopicBuilder
+                .name(topicName)
+                .partitions(partitions)
+                .replicas(replicationFactor)
+                .configs(Map.of("min.insync.replicas",minInsync))
+                .build();
+    }
+
+    @Bean
+    public NewTopic answerMessageTopic(@Value("${kafka.topics.answer-message.name}") String topicName,
+                                        @Value("${kafka.topics.answer-message.partitions}") Integer partitions,
+                                        @Value("${kafka.topics.answer-message.replication-factor}") Integer replicationFactor,
+                                        @Value("${kafka.topics.answer-message.min-insync-replicas}") String minInsync ){
         return TopicBuilder
                 .name(topicName)
                 .partitions(partitions)

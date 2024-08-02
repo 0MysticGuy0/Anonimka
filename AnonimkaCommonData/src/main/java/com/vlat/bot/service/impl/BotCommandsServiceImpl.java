@@ -40,4 +40,14 @@ public class BotCommandsServiceImpl implements com.vlat.bot.service.BotCommandsS
         }
         return helpText.toString();
     }
+
+    @Override
+    public BotCommands getBotCommand(String textCommand) {
+        for(BotCommands cmd: BotCommands.values()){
+            if(cmd.toString().equals(textCommand)){
+                return cmd;
+            }
+        }
+        return null;
+    }
 }
