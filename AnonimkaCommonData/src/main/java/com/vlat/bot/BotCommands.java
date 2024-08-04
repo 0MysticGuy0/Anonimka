@@ -4,7 +4,9 @@ import lombok.Getter;
 
 public enum BotCommands {
     START("/start","запустить бота"),
-    HELP("/help","список команд");
+    HELP("/help","список команд"),
+    SEARCH("/search","начать поиск"),
+    STOP("/stop","остановить поиск/диалог");
 
     @Getter
     private final String description;

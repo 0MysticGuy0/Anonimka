@@ -3,6 +3,15 @@ server:
     8101
 
 spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/anonimka
+    username: vlat
+    password: 31415926Zdec
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show-sql: true
+
   kafka:
     bootstrap-servers: localhost:9095
     producer:

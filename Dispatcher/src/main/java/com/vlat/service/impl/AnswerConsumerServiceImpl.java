@@ -26,7 +26,7 @@ public class AnswerConsumerServiceImpl implements AnswerConsumerService {
     @Override
     @KafkaHandler
     public void getAnswerFileMessage(AnswerFileMessage answerFileMessage) {
-        System.out.println("-=-=-| Received file-message");
+        System.out.println("-=-=-| Received answer-file-message");
         botService.sendMessage(answerFileMessage);
     }
 }
