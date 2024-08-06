@@ -5,11 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Dispatcher/pom.xml" />
-        <option value="$PROJECT_DIR$/AnonimkaCommonData/pom.xml" />
-        <option value="$PROJECT_DIR$/Node/pom.xml" />
-        <option value="$PROJECT_DIR$/CompanionSearcher/pom.xml" />
-        <option value="$PROJECT_DIR$/AnonimkaCommonJPA/pom.xml" />
       </list>
     </option>
   </component>

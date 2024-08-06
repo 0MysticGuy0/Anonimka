@@ -3,10 +3,11 @@ package com.vlat.bot;
 import lombok.Getter;
 
 public enum BotCommands {
-    START("/start","запустить бота"),
+    START("/start","приветствие"),
     HELP("/help","список команд"),
     SEARCH("/search","начать поиск"),
-    STOP("/stop","остановить поиск/диалог");
+    STOP("/stop","остановить поиск/диалог"),
+    NEXT("/next","следующий собеседник");
 
     @Getter
     private final String description;

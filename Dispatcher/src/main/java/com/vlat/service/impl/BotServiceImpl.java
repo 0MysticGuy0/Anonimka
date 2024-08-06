@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
+import org.telegram.telegrambots.meta.api.methods.ParseMode;
 import org.telegram.telegrambots.meta.api.methods.send.*;
 import org.telegram.telegrambots.meta.api.objects.File;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
@@ -28,6 +29,7 @@ public class BotServiceImpl implements BotService {
     public void sendMessage(SendMessage message){
         if(message != null){
             try {
+                message.setParseMode(ParseMode.MARKDOWN);
                 bot.execute(message);
             } catch (TelegramApiException e) {
                 throw new RuntimeException(e);

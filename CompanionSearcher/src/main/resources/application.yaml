@@ -1,12 +1,17 @@
 server:
   port:
-    8100
-
-bot:
-  username: anonimka_ru_chatbot
-  token: 7221258678:AAELInVCxyVbqlAkJyLfAhTMkJnWHjra-Qo
+    8102
 
 spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/anonimka
+    username: vlat
+    password: 31415926Zdec
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
   kafka:
     bootstrap-servers: localhost:9095
     producer:
@@ -18,11 +23,12 @@ spring:
         enable:
           idempotence: true
 
+
     consumer:
       bootstrap-servers: localhost:9095
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-      group-id: messages-to-user-consumers
+      group-id: messages-to-bot-consumers
       properties:
         spring:
           json:
@@ -31,28 +37,7 @@ spring:
 
 kafka:
   topics:
-    text-message:
-      name: text-message-topic
-      partitions: 5
-      replication-factor: 1
-      min-insync-replicas: 1
-    command-message:
-      name: command-message-topic
-      partitions: 3
-      replication-factor: 1
-      min-insync-replicas: 1
     answer-message:
       name: answer-message-topic
-      partitions: 5
-      replication-factor: 1
-      min-insync-replicas: 1
-    file-message:
-      name: file-message-topic
-      partitions: 3
-      replication-factor: 1
-      min-insync-replicas: 1
     search-message:
       name: search-message-topic
-      partitions: 3
-      replication-factor: 1
-      min-insync-replicas: 1

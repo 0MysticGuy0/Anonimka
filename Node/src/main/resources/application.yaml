@@ -9,7 +9,7 @@ spring:
     password: 31415926Zdec
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
       show-sql: true
 
   kafka:
@@ -45,3 +45,5 @@ kafka:
       name: answer-message-topic
     file-message:
       name: file-message-topic
+    search-message:
+      name: search-message-topic

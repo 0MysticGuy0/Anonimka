@@ -1,4 +1,4 @@
-package com.vlat.botUser.enums;
+package com.vlat.entity.enums;
 
 public enum BotUserState {
     IDLE,

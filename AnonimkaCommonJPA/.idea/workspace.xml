@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c3320d6-5cad-4c4d-aea2-29da09cfbf9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/kafkaMessage/SearchMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vlat/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vlat/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/CompanionSearcherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/AnswerGenerationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/MessageConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/ProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/SearchMessageProcessorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/SearcherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/impl/AnswerGenerationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/impl/MessageConsumerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/impl/ProducerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/impl/SearchMessageProcessorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/java/com/vlat/service/impl/SearcherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanionSearcher/src/test/java/com/vlat/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnonimkaCommonData/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnonimkaCommonData/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/botUser/enums/BotUserState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/bot/entity/enums/BotUserState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dispatcher/src/main/java/com/vlat/configuration/KafkaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dispatcher/src/main/java/com/vlat/configuration/KafkaConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dispatcher/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dispatcher/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/entity/BotUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/bot/entity/BotUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/repository/BotUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/bot/repository/BotUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/BotUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/bot/service/BotUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/CommandProcessorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/CommandProcessorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/ProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/ProducerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/BotUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnonimkaCommonData/src/main/java/com/vlat/bot/service/impl/BotUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/CommandProcessorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/CommandProcessorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/MessageProcessorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/MessageProcessorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/ProducerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Node/src/main/java/com/vlat/service/impl/ProducerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Node/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Node/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kDxVOTUppk8s8KtaO9Zitqb6YD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vlat/Desktop/PROJECTS/java/Anonimka",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c3320d6-5cad-4c4d-aea2-29da09cfbf9a" name="Changes" comment="" />
+      <created>1722831972393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722831972393</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -27,8 +27,8 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
     @Override
     @KafkaListener(topics = "command-message-topic")
     public void getCommandMessage(CommandMessage commandMessage) {
+        System.out.println("-=-=-| Received command-message: " + commandMessage.getCommand() + " from " + commandMessage.getAuthorId());
         messageProcessorService.processCommandMessage(commandMessage);
-        System.out.println("-=-=-| Received command-message");
     }
 
     @Override

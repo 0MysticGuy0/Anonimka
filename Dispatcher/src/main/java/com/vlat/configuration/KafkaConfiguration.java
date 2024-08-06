@@ -63,4 +63,17 @@ public class KafkaConfiguration {
                 .build();
     }
 
+    @Bean
+    public NewTopic searchMessageTopic(@Value("${kafka.topics.search-message.name}") String topicName,
+                                     @Value("${kafka.topics.search-message.partitions}") Integer partitions,
+                                     @Value("${kafka.topics.search-message.replication-factor}") Integer replicationFactor,
+                                     @Value("${kafka.topics.search-message.min-insync-replicas}") String minInsync ){
+        return TopicBuilder
+                .name(topicName)
+                .partitions(partitions)
+                .replicas(replicationFactor)
+                .configs(Map.of("min.insync.replicas",minInsync))
+                .build();
+    }
+
 }

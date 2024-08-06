@@ -82,6 +82,8 @@ public class DataProcessorServiceImpl implements DataProcessorService {
         String messageText = message.getText();
         Integer replyToId = getReplyToMessageId(message);
 
+        System.out.println("MESSAGE: \n\t" + messageText + " | BY " + message.getFrom());
+
         if(botCommandsService.isCommand(messageText)){
             processCommand(chatId, messageText);
             return;

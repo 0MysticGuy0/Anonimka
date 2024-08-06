@@ -1,8 +1,7 @@
 package com.vlat.service.impl;
 
 import com.vlat.bot.BotCommands;
-import com.vlat.bot.service.BotCommandsService;
-import com.vlat.botUser.enums.BotUserState;
+import com.vlat.entity.enums.BotUserState;
 import com.vlat.entity.BotUser;
 import com.vlat.kafkaMessage.*;
 import com.vlat.kafkaMessage.enums.FileMessageTypes;
@@ -29,19 +28,27 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
 
         String authorChatId = textMessage.getAuthorId();
         String text = textMessage.getText();
-        Integer replyToMessageId = textMessage.getReplyToMessageId();
+        Integer replyToMessageId = null;//textMessage.getReplyToMessageId();
         String receiverChatId = textMessage.getAuthorId();
 
         BotUser botUser = botUserService.getUser(authorChatId);
         BotUserState userState = botUser.getState();
 
         if (userState == BotUserState.IN_SEARCH){
-            text = "Вы находитесь в поиске. Для остановки используйте /stop";
+            text = "*Вы находитесь в поиске. Для остановки используйте /stop*";
         }else if(userState == BotUserState.IDLE){
-            text = "Вы не в диалоге. Для поиска собеседника используйте /search";
+            text = "*Вы не в диалоге.Для поиска собеседника используйте /search*";
         }
         else{
-            receiverChatId = textMessage.getAuthorId();
+            BotUser companion = botUser.getCompanion();
+            if(companion != null){
+                receiverChatId = companion.getChatId();
+                //text = "Собеседник:\n\n" + text;
+            }
+            else{
+                text = "*Ошибка! Для отмены используйте /stop*";
+                System.out.println("-=-=-=-=-=-=--=-=-| ERROR in message processor service. Companion = null, but state is IN_CONVERSATION");
+            }
         }
 
         AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId,replyToMessageId, text);
@@ -57,6 +64,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
         String answer = processCommand(command, botUser);
 
         if (answer != null){
+            answer = "*" + answer + "*";
             AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId,null, answer);
             producerService.produceAnswerMessage(answerTextMessage);
         }
@@ -76,16 +84,27 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
         if(userState != BotUserState.IN_CONVERSATION){
             String text = null;
             if (userState == BotUserState.IN_SEARCH){
-                text = "Вы находитесь в поиске. Для остановки используйте /stop";
+                text = "*Вы находитесь в поиске. Для остановки используйте /stop*";
             }else if(userState == BotUserState.IDLE){
-                text = "Вы не в диалоге. Для поиска собеседника используйте /search";
+                text = "*Вы не в диалоге. Для поиска собеседника используйте /search*";
             }
 
             AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId,replyToMessageId, text);
             producerService.produceAnswerMessage(answerTextMessage);
         }
         else{
-            receiverChatId = fileMessage.getAuthorId();
+            BotUser companion = botUser.getCompanion();
+            if(companion != null){
+                receiverChatId = companion.getChatId();
+                //text = "Собеседник:\n" + text;
+            }
+            else{
+                String text = "*Ошибка! Для отмены используйте /stop*";
+                AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId,replyToMessageId, text);
+                producerService.produceAnswerMessage(answerTextMessage);
+                System.out.println("-=-=-=-=-=-=--=-=-| ERROR in message processor service in file-process. Companion = null, but state is IN_CONVERSATION");
+                return;
+            }
 
             //TODO проверка подписки...
 
@@ -111,8 +130,11 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
         else if(command == STOP){
             return commandProcessorService.stop(botUser);
         }
+        else if(command == NEXT){
+            return commandProcessorService.next(botUser);
+        }
         else{
-            return "Bot:\n неизвестная команда! Для получения списка комманд введите /help";
+            return "неизвестная команда! Для получения списка комманд введите /help";
         }
     }
 }

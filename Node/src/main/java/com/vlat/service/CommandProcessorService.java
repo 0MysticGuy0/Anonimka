@@ -8,6 +8,7 @@ public interface CommandProcessorService {
     String start();
     String search(BotUser botUser);
     String stop(BotUser botUser);
+    String next(BotUser botUser);
 
     BotCommands parseCommand(String command);
 

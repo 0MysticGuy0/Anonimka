@@ -3,12 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.vlat</groupId>
-  <artifactId>Node</artifactId>
+  <artifactId>CompanionSearcher</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Node</name>
+  <name>CompanionSearcher</name>
   <url>http://maven.apache.org</url>
+
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
@@ -17,7 +18,6 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <telegram.version>6.9.7.1</telegram.version>
     <lombok.version>1.18.34</lombok.version>
     <kafka.version>3.2.2</kafka.version>
     <postgres.version>42.7.3</postgres.version>
@@ -30,12 +30,6 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.telegram/telegrambots-spring-boot-starter -->
-    <dependency>
-      <groupId>org.telegram</groupId>
-      <artifactId>telegrambots-spring-boot-starter</artifactId>
-      <version>${telegram.version}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
     <dependency>
@@ -66,7 +60,6 @@
       <artifactId>AnonimkaCommonJPA</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
-
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
