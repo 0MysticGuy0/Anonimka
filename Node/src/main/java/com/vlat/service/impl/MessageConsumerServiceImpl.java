@@ -6,6 +6,7 @@ import com.vlat.kafkaMessage.TextMessage;
 import com.vlat.service.MessageConsumerService;
 import com.vlat.service.MessageProcessorService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
+@Log4j
 public class MessageConsumerServiceImpl implements MessageConsumerService {
 
     private final MessageProcessorService messageProcessorService;
@@ -21,13 +23,13 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
     @KafkaListener(topics = "text-message-topic")
     public void getTextMessage(TextMessage textMessage) {
         messageProcessorService.processTextMessage(textMessage);
-        System.out.println("-=-=-| Received text-message");
+        log.debug("-=-=-| Received text-message");
     }
 
     @Override
     @KafkaListener(topics = "command-message-topic")
     public void getCommandMessage(CommandMessage commandMessage) {
-        System.out.println("-=-=-| Received command-message: " + commandMessage.getCommand() + " from " + commandMessage.getAuthorId());
+        log.debug("-=-=-| Received command-message: " + commandMessage.getCommand() + " from " + commandMessage.getAuthorId());
         messageProcessorService.processCommandMessage(commandMessage);
     }
 
@@ -35,7 +37,7 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
     @KafkaListener(topics = "file-message-topic")
     public void getFileMessage(FileMessage fileMessage) {
         messageProcessorService.processFileMessage(fileMessage);
-        System.out.println("-=-=-| Received file-message");
+        log.debug("-=-=-| Received file-message");
     }
 
 }

@@ -10,16 +10,17 @@ import com.vlat.service.CommandProcessorService;
 import com.vlat.service.MessageProcessorService;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 
 import static com.vlat.bot.BotCommands.*;
 
 @Service
 @RequiredArgsConstructor
+@Log4j
 public class MessageProcessorServiceImpl implements MessageProcessorService {
 
     private  final ProducerService producerService;
-    //private final BotCommandsService botCommandsService;
     private final CommandProcessorService commandProcessorService;
     private final BotUserService botUserService;
 
@@ -47,7 +48,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
             }
             else{
                 text = "*Ошибка! Для отмены используйте /stop*";
-                System.out.println("-=-=-=-=-=-=--=-=-| ERROR in message processor service. Companion = null, but state is IN_CONVERSATION");
+                log.error("-=-=-=-=-=-=--=-=-| ERROR in message processor service. Companion = null, but state is IN_CONVERSATION");
             }
         }
 
@@ -102,7 +103,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
                 String text = "*Ошибка! Для отмены используйте /stop*";
                 AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId,replyToMessageId, text);
                 producerService.produceAnswerMessage(answerTextMessage);
-                System.out.println("-=-=-=-=-=-=--=-=-| ERROR in message processor service in file-process. Companion = null, but state is IN_CONVERSATION");
+                log.error("-=-=-=-=-=-=--=-=-| ERROR in message processor service in file-process. Companion = null, but state is IN_CONVERSATION");
                 return;
             }
 

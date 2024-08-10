@@ -9,6 +9,7 @@ import com.vlat.service.BotService;
 import com.vlat.service.DataProcessorService;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.methods.send.SendSticker;
@@ -20,6 +21,7 @@ import static com.vlat.kafkaMessage.enums.FileMessageTypes.*;
 
 @Service
 @RequiredArgsConstructor
+@Log4j
 public class DataProcessorServiceImpl implements DataProcessorService {
 
     private final BotService botService;
@@ -72,7 +74,7 @@ public class DataProcessorServiceImpl implements DataProcessorService {
 
 
         }catch (Exception ex){
-            System.out.println("-=-=-| ERROR IN DataProcessorServiceImpl - processUpdate:\n" + ex);
+            log.error("-=-=-| ERROR IN DataProcessorServiceImpl - processUpdate:\n" + ex);
         }
     }
 
@@ -82,7 +84,7 @@ public class DataProcessorServiceImpl implements DataProcessorService {
         String messageText = message.getText();
         Integer replyToId = getReplyToMessageId(message);
 
-        System.out.println("MESSAGE: \n\t" + messageText + " | BY " + message.getFrom());
+        log.debug("Received MESSAGE: \n\t" + messageText + " |-|-| BY " + message.getFrom());
 
         if(botCommandsService.isCommand(messageText)){
             processCommand(chatId, messageText);
@@ -126,7 +128,7 @@ public class DataProcessorServiceImpl implements DataProcessorService {
             return message.getVideoNote().getFileId();
         }
         else{
-            System.out.println("-=-=-=-| UNKNOWN FILE TYPE RECEIVED FROM USER AND STARTED PROCESSING");
+            log.error("-=-=-=-| UNKNOWN FILE TYPE RECEIVED FROM USER AND STARTED PROCESSING");
             return null;
         }
     }

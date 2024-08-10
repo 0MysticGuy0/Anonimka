@@ -8,12 +8,14 @@ import com.vlat.service.BotUserService;
 import com.vlat.service.SearchMessageProcessorService;
 import com.vlat.service.SearcherService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 
 import static com.vlat.bot.BotCommands.*;
 
 @Service
 @RequiredArgsConstructor
+@Log4j
 public class SearchMessageProcessorServiceImpl implements SearchMessageProcessorService {
 
     private final SearcherService searcherService;
@@ -36,7 +38,7 @@ public class SearchMessageProcessorServiceImpl implements SearchMessageProcessor
             searcherService.next(botUser);
         }
         else{
-            System.out.println("-=-=-=-=-=-=-| RECEIVED UNKNOWN COMMAND IN SearchMessageProcessorService");
+            log.error("-=-=-=-=-=-=-| RECEIVED UNKNOWN(unhandled) COMMAND IN SearchMessageProcessorService: " + command);
             answerGenerationService.createAnswer(botUser,
                     "Ошибка! Для отмены используйте /stop");
         }

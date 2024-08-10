@@ -7,6 +7,7 @@ import com.vlat.kafkaMessage.AnswerTextMessage;
 import com.vlat.kafkaMessage.enums.FileMessageTypes;
 import com.vlat.service.BotService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
@@ -20,6 +21,7 @@ import static com.vlat.kafkaMessage.enums.FileMessageTypes.*;
 
 @Service
 @RequiredArgsConstructor
+@Log4j
 public class BotServiceImpl implements BotService {
 
     @Autowired
@@ -81,12 +83,12 @@ public class BotServiceImpl implements BotService {
             tgFile = bot.execute(getFile);
             file = bot.downloadFile(tgFile);
         } catch (TelegramApiException e) {
-            System.out.println("-=-=-| Exception while sendingFileAnswer: getFile / downloadFile:\n" + e.getMessage());
+            log.error("-=-=-| Exception while sendingFileAnswer: getFile / downloadFile:\n" + e.getMessage());
             e.printStackTrace();
         }
 
         if (file == null){
-            System.out.println("-=-=-| Error while sendingFileAnswer: file=null");
+            log.error("-=-=-| Error while sendingFileAnswer: file=null");
         }
 
         return new InputFile(file);
@@ -117,7 +119,7 @@ public class BotServiceImpl implements BotService {
                 bot.execute(sendVideoNote);
             }
         } catch (TelegramApiException e) {
-            System.out.println("-=-=-| Exception while executing send..." + fileType + " :\n" + e.getMessage());
+            log.error("-=-=-| Exception while executing send..." + fileType + " :\n" + e.getMessage());
             e.printStackTrace();
         }
     }

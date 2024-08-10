@@ -9,6 +9,7 @@ import com.vlat.kafkaMessage.SearchMessage;
 import com.vlat.service.CommandProcessorService;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 
 @Service

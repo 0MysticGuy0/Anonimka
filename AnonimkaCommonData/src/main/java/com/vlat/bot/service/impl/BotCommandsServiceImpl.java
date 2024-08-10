@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class BotCommandsServiceImpl implements com.vlat.bot.service.BotCommandsService {
 
     private final Set<String> COMMANDS_LIST;
-    private final String HELP_TEXT = "Список всех доступных команд:\n";
+    private final String HELP_TEXT = "Список доступных команд:\n\n";
 
     public BotCommandsServiceImpl() {
         COMMANDS_LIST = Arrays.stream(BotCommands.values())
@@ -36,7 +36,7 @@ public class BotCommandsServiceImpl implements com.vlat.bot.service.BotCommandsS
         helpText.append(HELP_TEXT);
         for(BotCommands cmd:BotCommands.values()){
             helpText.append(getCommandInfo(cmd))
-                    .append("\n");
+                    .append("\n\n");
         }
         return helpText.toString();
     }
