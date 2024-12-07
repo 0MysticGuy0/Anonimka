@@ -1,0 +1,18 @@
+2024-12-05 15:51:28 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-05 15:51:28 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-05 16:24:52 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-05 16:24:52 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-05 16:25:26 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-05 16:25:27 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-05 16:26:10 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-05 16:26:11 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-05 16:31:39 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-05 16:31:39 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-05 16:42:04 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-05 16:42:04 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-05 16:42:29 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-05 16:42:41 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-05 16:44:54 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)

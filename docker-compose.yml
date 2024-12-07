@@ -1,0 +1,118 @@
+#Anonimka
+#Bychkovsky V.R.
+
+version: '3.8'
+
+services:
+  dispatcher-service:
+    build: ./Dispatcher/
+    restart: always
+    container_name: anonimka_dispatcher-service_c
+    environment:
+      DISPATCHER_PORT: 8100
+      TG_BOT_TOKEN: ${BOT_TOKEN}
+      TG_BOT_USERNAME: ${BOT_USERNAME}
+      KAFKA_URL: ${KAFKA_URL}
+    ports:
+      - "8100:8100"
+    volumes:
+      - ./ANONIMKA-LOGS:/dispatcher/logs
+      - ./mvn-settings.xml:/root/.m2/settings.xml #maven settings with nexus server data and mirror to nexus
+    depends_on:
+      - anonimka-kafka
+
+  node-service:
+    build: ./Node/
+    restart: always
+    container_name: anonimka_node-service_c
+    environment:
+      NODE_PORT: 8101
+      KAFKA_URL: ${KAFKA_URL}
+      DB_URL: ${DB_URL}
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8101:8101"
+    volumes:
+      - ./ANONIMKA-LOGS:/node/logs
+      - ./mvn-settings.xml:/root/.m2/settings.xml #maven settings with nexus server data and mirror to nexus
+    depends_on:
+      - anonimka-kafka
+      - anonimka-database
+
+  searcher-service:
+    build: ./CompanionSearcher/
+    restart: always
+    container_name: anonimka_searcher-service_c
+    environment:
+      SEARCHER_PORT: 8102
+      KAFKA_URL: ${KAFKA_URL}
+      DB_URL: ${DB_URL}
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "8102:8102"
+    volumes:
+      - ./ANONIMKA-LOGS:/searcher/logs
+      - ./mvn-settings.xml:/root/.m2/settings.xml #maven settings with nexus server data and mirror to nexus
+    depends_on:
+      - anonimka-kafka
+      - anonimka-database
+
+  anonimka-database:
+    image: postgres
+    restart: always
+    container_name: anonimka_database_c
+    ports:
+      - "8050:5432"
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+      PGPORT: 5432
+    volumes:
+      - ./ANONIMKA-DATABASE:/var/lib/postgresql/data
+
+
+  anonimka-zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    container_name: anonimka_zookeeper_c
+    restart: always
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - 2181:2181
+
+  anonimka-kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: anonimka_kafka_c
+    depends_on:
+      - anonimka-zookeeper
+    ports:
+      - 29092:29092
+    restart: always
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: anonimka-zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_LISTENERS: PLAINTEXT://:9092,PLAINTEXT_HOST://0.0.0.0:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://anonimka-kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+
+  anonimka-kafka-ui:
+    image: provectuslabs/kafka-ui
+    container_name: anonimka_kafka-ui_c
+    ports:
+      - "8150:8080"
+    restart: always
+    environment:
+      - KAFKA_CLUSTERS_0_NAME=local
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=anonimka-kafka:9092
+      - KAFKA_CLUSTERS_0_ZOOKEEPER=anonimka-zookeeper:2181
+
+volumes:
+  ANONIMKA-LOGS:
+  ANONIMKA-DATABASE:

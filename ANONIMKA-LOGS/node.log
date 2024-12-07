@@ -1,0 +1,14 @@
+2024-12-07 04:37:34 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /start from 1196376478
+2024-12-07 04:37:38 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /help from 1196376478
+2024-12-07 04:37:41 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /search from 1196376478
+2024-12-07 04:37:52 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /search from 848986035
+2024-12-07 04:38:02 DEBUG MessageConsumerServiceImpl:26 - -=-=-| Received text-message
+2024-12-07 04:38:02 DEBUG MessageConsumerServiceImpl:40 - -=-=-| Received file-message
+2024-12-07 04:38:06 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /next from 1196376478
+2024-12-07 04:38:35 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /search from 848986035
+2024-12-07 04:38:43 DEBUG MessageConsumerServiceImpl:40 - -=-=-| Received file-message
+2024-12-07 04:38:51 DEBUG MessageConsumerServiceImpl:26 - -=-=-| Received text-message
+2024-12-07 04:39:08 DEBUG MessageConsumerServiceImpl:40 - -=-=-| Received file-message
+2024-12-07 04:39:10 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /search from 848986035
+2024-12-07 04:39:27 DEBUG MessageConsumerServiceImpl:40 - -=-=-| Received file-message
+2024-12-07 04:39:29 DEBUG MessageConsumerServiceImpl:32 - -=-=-| Received command-message: /next from 848986035

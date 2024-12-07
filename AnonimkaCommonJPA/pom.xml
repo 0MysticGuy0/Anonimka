@@ -4,7 +4,7 @@
 
   <groupId>com.vlat</groupId>
   <artifactId>AnonimkaCommonJPA</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>AnonimkaCommonJPA</name>
@@ -15,6 +15,28 @@
     <lombok.version>1.18.34</lombok.version>
     <jpa.version>3.3.2</jpa.version>
   </properties>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+  <distributionManagement>
+    <repository>
+      <id>my-nexus</id>
+      <url>http://localhost:8081/repository/vlat-maven-repo/</url>
+    </repository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>

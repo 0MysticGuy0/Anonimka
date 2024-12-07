@@ -1,3 +1,6 @@
+/.env
+/ANONIMKA-DATABASE/
+/ANONIMKA-LOGS/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/

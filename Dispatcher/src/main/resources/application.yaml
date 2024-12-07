@@ -1,16 +1,15 @@
 server:
-  port:
-    8100
+  port: ${DISPATCHER_PORT}
 
 bot:
-  username: anonimka_ru_chatbot
-  token: 7221258678:AAELInVCxyVbqlAkJyLfAhTMkJnWHjra-Qo
+  username: ${TG_BOT_USERNAME}
+  token: ${TG_BOT_TOKEN}
 
 spring:
   kafka:
-    bootstrap-servers: localhost:9095
+    bootstrap-servers: ${KAFKA_URL}
     producer:
-      bootstrap-servers: localhost:9095
+      bootstrap-servers: ${KAFKA_URL}
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       acks: all
@@ -19,7 +18,7 @@ spring:
           idempotence: true
 
     consumer:
-      bootstrap-servers: localhost:9095
+      bootstrap-servers: ${KAFKA_URL}
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       group-id: messages-to-user-consumers

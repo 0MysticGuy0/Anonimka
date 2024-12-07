@@ -34,7 +34,8 @@ public class BotServiceImpl implements BotService {
                 message.setParseMode(ParseMode.MARKDOWN);
                 bot.execute(message);
             } catch (TelegramApiException e) {
-                throw new RuntimeException(e);
+                log.error("-=-=-| ERROR while execute sendMessage: " + e.getMessage());
+                e.printStackTrace();
             }
         }
     }
@@ -119,7 +120,7 @@ public class BotServiceImpl implements BotService {
                 bot.execute(sendVideoNote);
             }
         } catch (TelegramApiException e) {
-            log.error("-=-=-| Exception while executing send..." + fileType + " :\n" + e.getMessage());
+            log.error("-=-=-| Exception while executing send...(file)" + fileType + " :\n" + e.getMessage());
             e.printStackTrace();
         }
     }
