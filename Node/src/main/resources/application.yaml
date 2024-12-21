@@ -13,8 +13,10 @@ spring:
       boot:
         allow_jdbc_metadata_access=false
     hibernate:
-      ddl-auto: update
       show-sql: true
+
+  liquibase:
+    change-log: db/changelog/changelog-master.yaml
 
   kafka:
     bootstrap-servers: ${KAFKA_URL}
