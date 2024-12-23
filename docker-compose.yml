@@ -64,7 +64,7 @@ services:
     restart: always
     container_name: anonimka_database_c
     ports:
-      - "8050:5432"
+      - "8055:5432"
     environment:
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD}

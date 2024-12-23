@@ -130,5 +130,9 @@
       <version>${log4j.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+    </dependency>
   </dependencies>
 </project>
