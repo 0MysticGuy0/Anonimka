@@ -23,15 +23,15 @@
     <postgres.version>42.7.3</postgres.version>
     <xml.bind.version>2.3.0</xml.bind.version>
     <log4j.version>1.2.17</log4j.version>
-    <nexus.repository.url>http://192.168.0.105:8081/repository/vlat-maven-repo/</nexus.repository.url>
     <AnonimkaCommonData.version>1.0</AnonimkaCommonData.version>
     <AnonimkaCommonJPA.version>1.0</AnonimkaCommonJPA.version>
+    <nexus.url>${env.NEXUS_URL}</nexus.url>
   </properties>
 
   <repositories>
     <repository>
       <id>my-nexus</id>
-      <url>${nexus.repository.url}</url>
+      <url>${nexus.url}</url>
     </repository>
   </repositories>
 
