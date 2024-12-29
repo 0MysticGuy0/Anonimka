@@ -18,7 +18,7 @@ public class AnswerGenerationServiceImpl implements AnswerGenerationService {
     public void createAnswer(BotUser botUser, String answerText) {
         String receiverChatId = botUser.getChatId();
         answerText = "*" + answerText + "*";
-        AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId,null, answerText);
+        AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, null, null, null, answerText);
 
         producerService.produceAnswerMessage(answerTextMessage);
     }

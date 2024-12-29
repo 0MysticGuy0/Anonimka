@@ -5,7 +5,10 @@ version: '3.8'
 
 services:
   dispatcher-service:
-    build: ./Dispatcher/
+    build:
+      context: ./Dispatcher/
+      args:
+        NEXUS_URL: ${NEXUS_URL}
     restart: always
     container_name: anonimka_dispatcher-service_c
     environment:
@@ -18,11 +21,16 @@ services:
     volumes:
       - ./ANONIMKA-LOGS:/dispatcher/logs
       - ./mvn-settings.xml:/root/.m2/settings.xml #maven settings with nexus server data and mirror to nexus
+    networks:
+      - anonimka_network
     depends_on:
       - anonimka-kafka
 
   node-service:
-    build: ./Node/
+    build:
+      context: ./Node/
+      args:
+        NEXUS_URL: ${NEXUS_URL}
     restart: always
     container_name: anonimka_node-service_c
     environment:
@@ -36,12 +44,17 @@ services:
     volumes:
       - ./ANONIMKA-LOGS:/node/logs
       - ./mvn-settings.xml:/root/.m2/settings.xml #maven settings with nexus server data and mirror to nexus
+    networks:
+      - anonimka_network
     depends_on:
       - anonimka-kafka
       - anonimka-database
 
   searcher-service:
-    build: ./CompanionSearcher/
+    build:
+      context:  ./CompanionSearcher/
+      args:
+        NEXUS_URL: ${NEXUS_URL}
     restart: always
     container_name: anonimka_searcher-service_c
     environment:
@@ -55,6 +68,8 @@ services:
     volumes:
       - ./ANONIMKA-LOGS:/searcher/logs
       - ./mvn-settings.xml:/root/.m2/settings.xml #maven settings with nexus server data and mirror to nexus
+    networks:
+      - anonimka_network
     depends_on:
       - anonimka-kafka
       - anonimka-database
@@ -72,6 +87,8 @@ services:
       PGPORT: 5432
     volumes:
       - ./ANONIMKA-DATABASE:/var/lib/postgresql/data
+    networks:
+      - anonimka_network
 
 
   anonimka-zookeeper:
@@ -83,6 +100,8 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - 2181:2181
+    networks:
+      - anonimka_network
 
   anonimka-kafka:
     image: confluentinc/cp-kafka:latest
@@ -101,6 +120,8 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       ALLOW_PLAINTEXT_LISTENER: "yes"
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+    networks:
+      - anonimka_network
 
   anonimka-kafka-ui:
     image: provectuslabs/kafka-ui
@@ -112,7 +133,24 @@ services:
       - KAFKA_CLUSTERS_0_NAME=local
       - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=anonimka-kafka:9092
       - KAFKA_CLUSTERS_0_ZOOKEEPER=anonimka-zookeeper:2181
+    networks:
+      - anonimka_network
+
+  redis:
+    image: redis:7.2.4
+    container_name: anonimka_redis
+    restart: always
+    ports:
+      - "9979:9979"
+    environment:
+      - REDIS_PORT=9979
+    networks:
+      - anonimka_network
 
 volumes:
   ANONIMKA-LOGS:
   ANONIMKA-DATABASE:
+
+networks:
+  anonimka_network:
+    driver: bridge

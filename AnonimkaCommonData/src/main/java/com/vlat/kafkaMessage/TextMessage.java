@@ -2,15 +2,19 @@ package com.vlat.kafkaMessage;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class TextMessage implements Serializable {
+public class TextMessage extends ReplyableMessage implements Serializable {
     private String text;
-    private String authorId;
-    private Integer replyToMessageId;
+
+    public TextMessage(String authorId, Integer replyToMessageId, Integer MessageId, String text) {
+        super(authorId, replyToMessageId, MessageId);
+        this.text = text;
+    }
 }

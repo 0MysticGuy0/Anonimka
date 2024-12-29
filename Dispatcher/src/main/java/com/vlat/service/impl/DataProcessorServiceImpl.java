@@ -82,6 +82,7 @@ public class DataProcessorServiceImpl implements DataProcessorService {
     private void processTextMessage(Message message){
         String chatId = message.getChatId().toString();
         String messageText = message.getText();
+        Integer messageId = message.getMessageId();
         Integer replyToId = getReplyToMessageId(message);
 
         log.debug("Received MESSAGE: \n\t" + messageText + " |-|-| BY " + message.getFrom());
@@ -91,12 +92,12 @@ public class DataProcessorServiceImpl implements DataProcessorService {
             return;
         }
 
-        TextMessage textMessage = new TextMessage(messageText, chatId, replyToId);
+        TextMessage textMessage = new TextMessage(chatId, replyToId, messageId, messageText);
         producerService.produceTextMessage(textMessage);
     }
 
     private void processCommand(String chatId, String command){
-        CommandMessage commandMessage = new CommandMessage(command, chatId);
+        CommandMessage commandMessage = new CommandMessage(chatId, command);
         producerService.produceCommandMessage(commandMessage);
     }
 
@@ -108,9 +109,10 @@ public class DataProcessorServiceImpl implements DataProcessorService {
     private FileMessage getFileMessageFromMessage(Message message, FileMessageTypes fileType){
         String fileId = getFileId(message, fileType);
         String chatId = message.getChatId().toString();
+        Integer messageId = message.getMessageId();
         Integer replyToId = getReplyToMessageId(message);
 
-        return new FileMessage(chatId, replyToId, fileId, fileType);
+        return new FileMessage(chatId, replyToId, messageId, fileId, fileType);
     }
 
     private String getFileId(Message message, FileMessageTypes fileType){

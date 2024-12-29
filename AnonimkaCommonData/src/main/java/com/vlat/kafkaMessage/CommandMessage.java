@@ -2,14 +2,19 @@ package com.vlat.kafkaMessage;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class CommandMessage implements Serializable {
+public class CommandMessage extends ReceivedMessage implements Serializable {
     private String command;
-    private String authorId;
+
+    public CommandMessage(String authorId, String command) {
+        super(authorId);
+        this.command = command;
+    }
 }
