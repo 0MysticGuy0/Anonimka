@@ -6,6 +6,7 @@ import com.vlat.kafkaMessage.AnswerMessage;
 import com.vlat.kafkaMessage.AnswerTextMessage;
 import com.vlat.kafkaMessage.enums.FileMessageTypes;
 import com.vlat.service.BotService;
+import com.vlat.service.MessageLinkerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ import org.telegram.telegrambots.meta.api.methods.ParseMode;
 import org.telegram.telegrambots.meta.api.methods.send.*;
 import org.telegram.telegrambots.meta.api.objects.File;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
+import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import static com.vlat.kafkaMessage.enums.FileMessageTypes.*;
@@ -26,53 +28,75 @@ public class BotServiceImpl implements BotService {
 
     @Autowired
     private final AnonimkaBot bot;
+    @Autowired
+    private final MessageLinkerService messageLinkerService;
 
     @Override
-    public void sendMessage(SendMessage message){
+    public Integer sendMessage(SendMessage message){
         if(message != null){
             try {
                 message.setParseMode(ParseMode.MARKDOWN);
-                bot.execute(message);
+                Message sendedMessage =  bot.execute(message);
+                if(sendedMessage != null){
+                    return sendedMessage.getMessageId();
+                }
             } catch (TelegramApiException e) {
                 log.error("-=-=-| ERROR while execute sendMessage: " + e.getMessage());
                 e.printStackTrace();
             }
         }
+        return null;
     }
 
     @Override
-    public void sendMessage(String chatId, String text, Integer replyToId) {
+    public Integer sendMessage(String chatId, String text, Integer replyToId) {
         SendMessage sendMessage = new SendMessage(chatId, text);
         sendMessage.setReplyToMessageId(replyToId);
-        sendMessage(sendMessage);
+        return sendMessage(sendMessage);
     }
 
     @Override
-    public void sendMessage(AnswerMessage answerMessage) {
+    public Integer sendMessage(AnswerMessage answerMessage) {
         if (answerMessage instanceof AnswerTextMessage){
-            sendTextAnswer((AnswerTextMessage) answerMessage);
+            return sendTextAnswer((AnswerTextMessage) answerMessage);
         }
         else if(answerMessage instanceof AnswerFileMessage){
-            sendFileAnswer((AnswerFileMessage) answerMessage);
+            return sendFileAnswer((AnswerFileMessage) answerMessage);
         }
+        return null;
     }
 
-    private void sendTextAnswer(AnswerTextMessage answerTextMessage){
+    private Integer sendTextAnswer(AnswerTextMessage answerTextMessage){
         String receiverChatId = answerTextMessage.getReceiverChatId();
-        Integer replyToMessageId = answerTextMessage.getReplyToMessageId();
+        String senderChatId = answerTextMessage.getSenderChatId();
         String text = answerTextMessage.getText();
 
-        sendMessage(receiverChatId, text, replyToMessageId);
+        Integer replyToMessageId = answerTextMessage.getReplyToMessageId();
+        replyToMessageId = messageLinkerService.getLinkedMessageId(senderChatId, receiverChatId, replyToMessageId);
+
+        Integer sentMessageId = sendMessage(receiverChatId, text, replyToMessageId);
+
+        messageLinkerService.createLink(answerTextMessage, sentMessageId);
+
+        return sentMessageId;
     }
 
-    private void sendFileAnswer(AnswerFileMessage answerMessage) {
+    private Integer sendFileAnswer(AnswerFileMessage answerMessage) {
         String fileId = answerMessage.getFileId();
         String receiverChatId = answerMessage.getReceiverChatId();
-        Integer replyToMessageId = answerMessage.getReplyToMessageId();
+        String senderChatId = answerMessage.getSenderChatId();
         FileMessageTypes fileType = answerMessage.getFileType();
 
+        Integer replyToMessageId = answerMessage.getReplyToMessageId();
+        replyToMessageId = messageLinkerService.getLinkedMessageId(senderChatId, receiverChatId, replyToMessageId);
+
+
         InputFile inputFile = getInputFile(fileId);
-        executeSendFile(fileType, receiverChatId, inputFile, replyToMessageId);
+        Integer sentMessageId =  executeSendFile(fileType, receiverChatId, inputFile, replyToMessageId);
+
+        messageLinkerService.createLink(answerMessage, sentMessageId);
+
+        return  sentMessageId;
     }
 
     private InputFile getInputFile(String fileId) {
@@ -95,33 +119,39 @@ public class BotServiceImpl implements BotService {
         return new InputFile(file);
     }
 
-    private void executeSendFile(FileMessageTypes fileType, String receiverChatId, InputFile inputFile, Integer replyToMessageId) {
+    private Integer executeSendFile(FileMessageTypes fileType, String receiverChatId, InputFile inputFile, Integer replyToMessageId) {
+        Message sentMessage = null;
         try{
             if (fileType == PHOTO){
                 SendPhoto sendPhoto = new SendPhoto(receiverChatId, inputFile);
                 sendPhoto.setReplyToMessageId(replyToMessageId);
                 sendPhoto.setReplyToMessageId(replyToMessageId);
-                bot.execute(sendPhoto);
+                sentMessage = bot.execute(sendPhoto);
             } else if (fileType == STICKER){
                 SendSticker sendSticker = new SendSticker(receiverChatId, inputFile);
                 sendSticker.setReplyToMessageId(replyToMessageId);
-                bot.execute(sendSticker);
+                sentMessage = bot.execute(sendSticker);
             } else if (fileType == VOICE){
                 SendVoice sendVoice = new SendVoice(receiverChatId, inputFile);
                 sendVoice.setReplyToMessageId(replyToMessageId);
-                bot.execute(sendVoice);
+                sentMessage = bot.execute(sendVoice);
             } else if (fileType == VIDEO){
                 SendVideo sendVideo = new SendVideo(receiverChatId, inputFile);
                 sendVideo.setReplyToMessageId(replyToMessageId);
-                bot.execute(sendVideo);
+                sentMessage = bot.execute(sendVideo);
             } else if (fileType == VIDEO_NOTE){
                 SendVideoNote sendVideoNote = new SendVideoNote(receiverChatId, inputFile);
                 sendVideoNote.setReplyToMessageId(replyToMessageId);
-                bot.execute(sendVideoNote);
+                sentMessage = bot.execute(sendVideoNote);
             }
         } catch (TelegramApiException e) {
             log.error("-=-=-| Exception while executing send...(file)" + fileType + " :\n" + e.getMessage());
             e.printStackTrace();
         }
+
+        if(sentMessage != null){
+            return sentMessage.getMessageId();
+        }
+        return null;
     }
 }

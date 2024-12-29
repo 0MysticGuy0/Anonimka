@@ -4,7 +4,7 @@
 
   <groupId>com.vlat</groupId>
   <artifactId>AnonimkaCommonData</artifactId>
-  <version>1.0</version>
+  <version>1.2</version>
   <packaging>jar</packaging>
 
   <name>AnonimkaCommonData</name>

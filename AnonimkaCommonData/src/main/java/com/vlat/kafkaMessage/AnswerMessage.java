@@ -11,5 +11,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class AnswerMessage implements Serializable {
     protected String receiverChatId;
+    protected String senderChatId;
     protected Integer replyToMessageId;
+    protected Integer messageId;
 }

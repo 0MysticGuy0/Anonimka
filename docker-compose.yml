@@ -136,6 +136,17 @@ services:
     networks:
       - anonimka_network
 
+  redis:
+    image: redis:7.2.4
+    container_name: anonimka_redis
+    restart: always
+    ports:
+      - "9979:9979"
+    environment:
+      - REDIS_PORT=9979
+    networks:
+      - anonimka_network
+
 volumes:
   ANONIMKA-LOGS:
   ANONIMKA-DATABASE:
