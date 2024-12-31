@@ -2,7 +2,10 @@ package com.vlat.service.impl;
 
 import com.vlat.kafkaMessage.AnswerMessage;
 import com.vlat.service.MessageLinkerService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -12,9 +15,11 @@ import java.util.Map;
 
 @Service
 @Log4j
+@RequiredArgsConstructor
 public class MessageLinkerServiceImpl implements MessageLinkerService {
 
-    public static final Map<String, Map<Integer, String>> links = new HashMap();
+    @Autowired
+    private final StringRedisTemplate redisTemplate;
 
     @Override
     public void createLink(AnswerMessage answerMessage, Integer sentMessageId) {
@@ -28,10 +33,10 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
 
         Integer linkedMessageId = null;
 
-        if(links.containsKey(senderChatId)){
-            Map<Integer, String> userLinks = links.get(senderChatId);
+        if(redisTemplate.hasKey(senderChatId)){
+            String data = (String) redisTemplate.opsForHash()
+                    .get(senderChatId, messageId.toString());
 
-            String data = userLinks.get(messageId);
             if(data != null){
                 String[] dataParts = data.split(":");
                 String receiverId = dataParts[0];
@@ -54,26 +59,23 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
         String receiverChatId = answerMessage.getReceiverChatId();
         String senderChatId = answerMessage.getSenderChatId();
         Integer senderMessageId = answerMessage.getMessageId();
-        if(!links.containsKey(senderChatId)){
-            links.put(senderChatId, new HashMap<>());
-        }
+
+        if(senderChatId == null || senderMessageId == null || sentMessageId == null) return;
 
         String data;
-        Map senderLinks = links.get(senderChatId);
         data = receiverChatId + ":" + sentMessageId;
-        senderLinks.put(senderMessageId, data);
+        redisTemplate.opsForHash().put(senderChatId, senderMessageId.toString(), data);
     }
     private void createReceiverLink(AnswerMessage answerMessage, Integer sentMessageId){
         String receiverChatId = answerMessage.getReceiverChatId();
         String senderChatId = answerMessage.getSenderChatId();
         Integer senderMessageId = answerMessage.getMessageId();
-        if(!links.containsKey(receiverChatId)){
-            links.put(receiverChatId, new HashMap<>());
-        }
+
+        if(senderChatId == null || senderMessageId == null || sentMessageId == null) return;
+
 
         String data;
-        Map receiverLinks = links.get(receiverChatId);
         data = senderChatId + ":" + senderMessageId;
-        receiverLinks.put(sentMessageId, data);
+        redisTemplate.opsForHash().put(receiverChatId, sentMessageId.toString(), data);
     }
 }
