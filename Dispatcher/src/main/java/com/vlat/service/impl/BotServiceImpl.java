@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.methods.ParseMode;
 import org.telegram.telegrambots.meta.api.methods.send.*;
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.File;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -46,6 +47,21 @@ public class BotServiceImpl implements BotService {
             }
         }
         return null;
+    }
+
+
+    @Override
+    public void editMessageText(String chatId, Integer messageId, String newText) {
+        EditMessageText editMessage = EditMessageText.builder()
+                .chatId(chatId)
+                .messageId(messageId)
+                .text(newText).build();
+        try{
+            bot.execute(editMessage);
+        }catch (TelegramApiException e){
+            log.error("-=-=-| ERROR while execute editTextMessage: " + e.getMessage());
+
+        }
     }
 
     @Override

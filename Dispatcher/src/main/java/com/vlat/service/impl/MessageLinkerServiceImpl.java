@@ -54,6 +54,25 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
         return linkedMessageId;
     }
 
+    @Override
+    public String[] getLinkedData(String senderChatId, Integer messageId) {
+        if(senderChatId == null || messageId == null) return  null;
+
+        String[] linkedData = null;
+
+        if(redisTemplate.hasKey(senderChatId)){
+            String data = (String) redisTemplate.opsForHash()
+                    .get(senderChatId, messageId.toString());
+
+            if(data != null){
+                String[] dataParts = data.split(":");
+                linkedData = dataParts;
+            }
+        }
+
+        return linkedData;
+    }
+
 
     private void createSenderLink(AnswerMessage answerMessage, Integer sentMessageId){
         String receiverChatId = answerMessage.getReceiverChatId();
