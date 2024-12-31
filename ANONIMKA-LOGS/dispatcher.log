@@ -126,3 +126,1212 @@
 	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
 2024-12-07 13:50:06 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
 	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 11:01:08 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 11:01:08 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 12:20:06 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 12:20:07 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 12:22:51 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 12:22:51 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 12:23:44 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 12:23:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:23:46 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 12:23:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:23:53 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 12:23:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:23:55 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 12:23:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:23:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:26:40 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 12:26:41 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 12:27:10 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 12:27:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:27:14 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 12:27:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:27:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 12:28:05 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 12:28:06 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 12:48:10 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 12:48:10 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 12:52:06 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 12:52:07 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 13:05:13 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 13:05:14 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 13:13:24 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 13:13:24 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 13:21:34 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 13:21:35 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 13:22:26 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-08 13:22:27 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-08 13:23:03 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 13:23:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 13:23:05 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 13:23:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 13:23:08 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 13:23:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 13:23:13 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-08 13:23:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-08 13:23:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-21 17:04:06 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-21 17:04:07 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-21 18:42:32 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-21 18:42:33 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-21 18:46:55 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-21 18:46:55 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-21 18:53:16 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-21 18:53:16 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-21 18:53:53 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-21 18:53:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-21 18:53:57 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-21 18:53:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-21 18:53:59 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-21 18:53:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-21 18:54:03 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=en, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-21 18:54:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-21 18:54:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 07:20:30 ERROR AnonimkaBot:48 - -=-=-=-=-=-| ERROR while trying to create menu with commands: Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [401] Unauthorized
+2024-12-28 07:20:30 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 07:20:42 ERROR AnonimkaBot:48 - -=-=-=-=-=-| ERROR while trying to create menu with commands: Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [401] Unauthorized
+2024-12-28 07:20:42 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 07:21:55 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 07:21:56 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-28 07:22:29 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 07:22:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 07:22:33 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 07:22:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 07:22:36 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 07:22:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 07:22:38 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 07:22:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 07:22:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 07:22:46 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	F |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 07:22:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 09:13:43 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 09:13:44 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-28 09:50:35 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 09:50:35 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-28 09:51:37 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 09:51:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 09:51:40 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 09:51:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 09:51:44 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 09:51:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 09:51:48 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 09:51:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 09:51:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 10:11:54 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 10:11:54 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-28 10:13:09 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-28 10:13:10 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-28 10:13:40 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 10:13:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 10:22:13 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 10:22:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 10:22:15 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 10:22:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 10:22:17 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 10:22:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 10:22:19 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-28 10:22:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-28 10:22:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 10:37:29 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 10:37:29 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 10:37:44 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	----- |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:37:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 10:38:01 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 10:38:06 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	/search |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 10:38:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 10:38:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 10:38:10 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	П |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 10:38:28 DEBUG AnswerConsumerServiceImpl:31 - -=-=-| Received answer-file-message for 5198650906
+2024-12-29 10:38:41 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	Привет |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 10:38:44 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	Приве |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 10:38:49 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	А1 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 10:38:54 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	А2 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:38:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 10:39:01 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	Б2 |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:39:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 10:39:04 DEBUG DataProcessorServiceImpl:87 - Received MESSAGE: 
+	Б1 |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 10:39:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 11:22:42 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 11:22:51 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 11:22:55 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 11:31:15 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 11:31:16 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 11:31:40 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 11:31:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /stop
+2024-12-29 11:31:41 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 11:31:49 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 11:31:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 11:31:49 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 11:32:09 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Стоп |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 11:38:04 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 11:38:04 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 11:38:25 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 11:38:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 11:38:26 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 11:38:33 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 11:38:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 11:38:33 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 11:38:39 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Ппп |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:11:40 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 12:11:41 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 12:11:55 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:11:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 12:11:55 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 12:12:00 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:12:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 12:12:00 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 12:14:34 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 12:14:34 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 12:14:51 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:14:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 12:14:51 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 12:18:50 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Рол |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:18:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:19:08 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:19:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /help
+2024-12-29 12:19:08 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 12:19:13 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:19:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /start
+2024-12-29 12:19:14 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 12:19:22 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:19:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for /search
+2024-12-29 12:19:22 ERROR BotServiceImpl:44 - -=-=-| ERROR while execute sendMessage: Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2024-12-29 12:19:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Аоао |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:19:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:31:11 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 12:31:12 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 12:33:48 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Р |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:33:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:33:51 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:33:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:33:54 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:33:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:34:24 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Влад лох |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:34:27 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:34:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:34:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:34:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:34:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Аааа |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:34:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бб |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:34:40 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Прив |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:34:46 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	При |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:34:52 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А1 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:34:56 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А2 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:34:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 12:35:05 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Б2 |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:35:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:35:11 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Б1 |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:35:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:35:33 DEBUG AnswerConsumerServiceImpl:31 - -=-=-| Received answer-file-message for 5198650906
+2024-12-29 12:35:51 DEBUG AnswerConsumerServiceImpl:31 - -=-=-| Received answer-file-message for 5198650906
+2024-12-29 12:36:07 DEBUG AnswerConsumerServiceImpl:31 - -=-=-| Received answer-file-message for 5198650906
+2024-12-29 12:36:12 DEBUG AnswerConsumerServiceImpl:31 - -=-=-| Received answer-file-message for 5198650906
+2024-12-29 12:36:21 DEBUG AnswerConsumerServiceImpl:31 - -=-=-| Received answer-file-message for 5198650906
+2024-12-29 12:36:29 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 12:36:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:36:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 12:36:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:32:59 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-29 14:32:59 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-29 14:33:43 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:33:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:48 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:33:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:55 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	G |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:33:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:33:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:33:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:11 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	F |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:34:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:23 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Vvs |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:34:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Gh |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:34:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:40 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Булька барабулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:34:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-29 14:34:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:34:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:21 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:30 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:31 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:33 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:33 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:33 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:33 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:37 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-29 14:35:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-29 14:35:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:13 ERROR AnonimkaBot:48 - -=-=-=-=-=-| ERROR while trying to create menu with commands: Unable to execute setMyCommands method
+2024-12-30 10:08:13 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 10:08:33 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 10:08:33 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 10:08:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:38 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Бiлька бiрiбулька |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 10:08:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 10:08:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:08:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:09:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:44 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:46 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:47 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:10:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:11 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:11:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:23:55 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 01:23:55 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 01:24:12 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:24:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:13 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:24:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:37:54 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 01:37:55 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 01:38:10 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:38:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:38:14 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:38:14 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:38:19 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:38:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:38:24 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Ппп |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:38:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:19 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	При |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:39:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:22 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Ха |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:39:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А1 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:39:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:36 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А2 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:39:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:38 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:39 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:40 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:41 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:42 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:43 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:39:51 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Б2 |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:39:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:54 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:55 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Б1 |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:39:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:55 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:39:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:05 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Р |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:15 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Ы |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:15 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:17 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	В |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:19 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:20 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:22 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/stop |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:25 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:25 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:27 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/search |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:40:29 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	П |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Р |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:34 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	И |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:40:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:40:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:01 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 01:51:02 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 01:51:04 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:51:18 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:51:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:51:21 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:51:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:51:30 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Пр |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:51:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:45 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Пока |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:51:45 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:51:56 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А1 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:51:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:51:59 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:00 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А2 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:52:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:09 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	П |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:52:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 01:52:16 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	О |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:52:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:26 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Я |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:52:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:26 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:27 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:32 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Ч |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:52:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:34 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:35 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Я |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 01:52:35 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:36 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 01:52:37 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:02:41 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 02:02:41 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 02:02:45 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:02:56 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:02:56 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:02:57 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:02:57 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:03:00 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	При |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:03:00 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:01 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:03 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	А1 |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:03:03 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:04 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:05 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:07 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:08 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:03:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:00 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 02:06:00 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 02:06:23 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:06:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:06:28 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	При |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:06:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:29 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:30 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:31 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:32 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:33 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:48 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	П |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:06:48 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:49 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:50 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:51 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:52 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:06:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:09:37 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 02:09:37 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 02:10:09 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/help |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:10:09 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:10:12 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	/start |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:10:12 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:10:15 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	При |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:10:16 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:10:22 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Прив |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:10:22 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:10:28 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	П |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:10:28 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:21:35 DEBUG AnonimkaBot:36 - -=-=-=| Bot bean created
+2024-12-30 02:21:35 DEBUG BotConfiguration:28 - -=-=-=| TelegramBotsApi bean created
+2024-12-30 02:28:10 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Прив |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:28:10 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:28:17 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Про |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:28:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:28:24 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Пра |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:28:24 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:28:53 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Пре |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:28:53 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:28:58 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Лу |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:28:58 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:29:02 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Йо |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:29:02 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:29:06 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Я |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:29:06 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:29:17 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Гг |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:29:17 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:29:18 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Акккв |-|-| BY User(id=5198650906, firstName=$Alex$, isBot=false, lastName=null, userName=alexodll, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:29:18 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 1196376478
+2024-12-30 02:29:21 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	И |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:29:21 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906
+2024-12-30 02:29:23 DEBUG DataProcessorServiceImpl:88 - Received MESSAGE: 
+	Р |-|-| BY User(id=1196376478, firstName=🤟, isBot=false, lastName=null, userName=vlad0O_O0, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null)
+2024-12-30 02:29:23 DEBUG AnswerConsumerServiceImpl:24 - -=-=-| Received answer-message for 5198650906

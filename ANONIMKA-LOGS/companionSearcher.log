@@ -25,3 +25,186 @@
 2024-12-07 04:39:29 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
 	BotUser{chatId='848986035', state=IN_SEARCH, companion-id=null}
 
+2024-12-08 12:22:55 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-08 12:23:53 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-08 12:23:53 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-08 12:23:53 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-08 12:23:55 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-08 12:23:55 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-08 12:23:55 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-08 12:23:55 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-08 12:26:43 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-08 12:27:11 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-08 12:27:11 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-08 12:27:11 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-08 12:27:14 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-08 12:27:14 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-08 12:27:14 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-08 12:27:14 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-08 13:21:38 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-08 13:22:29 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-08 13:23:08 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-08 13:23:08 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-08 13:23:08 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-08 13:23:13 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-08 13:23:13 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-08 13:23:13 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-08 13:23:13 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-21 17:04:10 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-21 18:42:34 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-21 18:46:58 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-21 18:53:18 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-21 18:53:59 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-21 18:54:00 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-21 18:54:00 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-21 18:54:03 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-21 18:54:03 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-21 18:54:04 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-21 18:54:04 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-28 07:20:33 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-28 07:21:56 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-28 07:22:36 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-28 07:22:36 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-28 07:22:36 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-28 07:22:38 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-28 07:22:38 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-28 07:22:38 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-28 07:22:38 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-28 09:13:47 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-28 09:50:38 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-28 09:51:44 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-28 09:51:44 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-28 09:51:44 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-28 09:51:48 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-28 09:51:48 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-28 09:51:48 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-28 09:51:48 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-28 10:11:56 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-28 10:13:13 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-28 10:22:17 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-28 10:22:17 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-28 10:22:17 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-28 10:22:19 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-28 10:22:19 DEBUG SearcherServiceImpl:142 - 1196376478 removed successfully from searchList: true
+2024-12-28 10:22:19 DEBUG SearcherServiceImpl:149 - -=-=-| User 1196376478 stopped search
+2024-12-28 10:22:19 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-29 10:37:31 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 10:38:01 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-29 10:38:01 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-29 10:38:01 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-29 10:38:06 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 5198650906
+2024-12-29 10:38:06 DEBUG SearcherServiceImpl:118 - -=-=-| CREATED DIALOG FOR: 5198650906 & 1196376478
+2024-12-29 10:38:06 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-29 11:22:44 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 11:31:18 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 11:38:08 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 12:11:44 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 12:14:38 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 12:31:15 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 12:34:27 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 5198650906
+2024-12-29 12:34:27 DEBUG SearcherServiceImpl:100 - -=-=-| User 5198650906 added to inSearch list
+2024-12-29 12:34:27 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='5198650906', state=IN_SEARCH, companion-id=null}
+
+2024-12-29 12:34:31 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-29 12:34:31 DEBUG SearcherServiceImpl:118 - -=-=-| CREATED DIALOG FOR: 1196376478 & 5198650906
+2024-12-29 12:34:31 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-29 12:36:29 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-29 12:36:29 DEBUG SearcherServiceImpl:136 - -=-=-| User 1196376478 stopped dialog with 5198650906
+2024-12-29 14:08:40 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 14:33:01 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-29 14:33:43 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-29 14:33:43 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-29 14:33:43 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-29 14:33:48 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 5198650906
+2024-12-29 14:33:48 DEBUG SearcherServiceImpl:118 - -=-=-| CREATED DIALOG FOR: 5198650906 & 1196376478
+2024-12-29 14:33:48 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-30 10:08:21 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 01:23:59 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 01:37:56 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 01:40:22 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /stop from 1196376478
+2024-12-30 01:40:22 DEBUG SearcherServiceImpl:136 - -=-=-| User 1196376478 stopped dialog with 5198650906
+2024-12-30 01:40:25 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 1196376478
+2024-12-30 01:40:25 DEBUG SearcherServiceImpl:100 - -=-=-| User 1196376478 added to inSearch list
+2024-12-30 01:40:25 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+	BotUser{chatId='1196376478', state=IN_SEARCH, companion-id=null}
+
+2024-12-30 01:40:27 DEBUG MessageConsumerServiceImpl:26 - -=-=| Received search-message: /search from 5198650906
+2024-12-30 01:40:27 DEBUG SearcherServiceImpl:118 - -=-=-| CREATED DIALOG FOR: 5198650906 & 1196376478
+2024-12-30 01:40:27 DEBUG SearcherServiceImpl:172 - | CURRENT LIST: |
+
+
+2024-12-30 01:51:04 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 02:02:44 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 02:06:01 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 02:09:40 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
+2024-12-30 02:21:36 DEBUG SearcherServiceImpl:40 - Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:
+
