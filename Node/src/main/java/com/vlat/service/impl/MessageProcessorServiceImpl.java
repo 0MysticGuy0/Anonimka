@@ -119,7 +119,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
                 return;
             }
 
-            //TODO проверка подписки...
+            //TODO проверка подписки если надо отправить фото или видео
 
             AnswerFileMessage answerFileMessage = new AnswerFileMessage(receiverChatId, senderChatId, replyToMessageId, messageId, fileId, fileType);
             producerService.produceAnswerMessage(answerFileMessage);
