@@ -106,9 +106,11 @@ public class BotServiceImpl implements BotService {
         Integer replyToMessageId = answerMessage.getReplyToMessageId();
         replyToMessageId = messageLinkerService.getLinkedMessageId(senderChatId, receiverChatId, replyToMessageId);
 
-
-        InputFile inputFile = getInputFile(fileId);
-        Integer sentMessageId =  executeSendFile(fileType, receiverChatId, inputFile, replyToMessageId);
+        InputFile inputFile = null;
+        if(fileType != STICKER) {
+            inputFile = getInputFile(fileId);
+        }
+        Integer sentMessageId =  executeSendFile(fileType, receiverChatId, inputFile, fileId, replyToMessageId);
 
         messageLinkerService.createLink(answerMessage, sentMessageId);
 
@@ -135,7 +137,7 @@ public class BotServiceImpl implements BotService {
         return new InputFile(file);
     }
 
-    private Integer executeSendFile(FileMessageTypes fileType, String receiverChatId, InputFile inputFile, Integer replyToMessageId) {
+    private Integer executeSendFile(FileMessageTypes fileType, String receiverChatId, InputFile inputFile, String fileId, Integer replyToMessageId) {
         Message sentMessage = null;
         try{
             if (fileType == PHOTO){
@@ -144,7 +146,7 @@ public class BotServiceImpl implements BotService {
                 sendPhoto.setReplyToMessageId(replyToMessageId);
                 sentMessage = bot.execute(sendPhoto);
             } else if (fileType == STICKER){
-                SendSticker sendSticker = new SendSticker(receiverChatId, inputFile);
+                SendSticker sendSticker = new SendSticker(receiverChatId, new InputFile(fileId));
                 sendSticker.setReplyToMessageId(replyToMessageId);
                 sentMessage = bot.execute(sendSticker);
             } else if (fileType == VOICE){
