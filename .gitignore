@@ -43,3 +43,4 @@ build/
 ANONIMKA-LOGS/dispatcher.log
 ANONIMKA-LOGS/companionSearcher.log
 ANONIMKA-LOGS/node.log
+/ANONIMKA-LOGS

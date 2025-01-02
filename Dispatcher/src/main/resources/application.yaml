@@ -28,6 +28,12 @@ spring:
             trusted:
               packages: com.vlat.kafkaMessage
 
+  data:
+    redis:
+      host: ${REDIS_LINKS_URL}
+      port: 6379
+      #${REDIS_LINKS_PORT}
+
 kafka:
   topics:
     text-message:

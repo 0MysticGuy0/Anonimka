@@ -130,8 +130,8 @@ public class SearcherServiceImpl implements SearcherService {
         botUserService.saveUser(botUser);
         botUserService.saveUser(companion);
 
-        answerGenerationService.createAnswer(botUser, "Диалог остановлен. Для поиска нового собеседника используйте /search");
-        answerGenerationService.createAnswer(companion, "Собеседник остановил дилог. Для поиска нового собеседника используйте /search");
+        answerGenerationService.createAnswer(botUser, "Диалог остановлен. Для поиска нового собеседника используйте /search", true);
+        answerGenerationService.createAnswer(companion, "Собеседник остановил дилог. Для поиска нового собеседника используйте /search", true);
 
         log.debug("-=-=-| User "+ botUser.getChatId() + " stopped dialog with " + companion.getChatId());
     }
@@ -156,11 +156,11 @@ public class SearcherServiceImpl implements SearcherService {
         companion.setState(BotUserState.IDLE);
         companion.setCompanion(null);
         botUserService.saveUser(companion);
-        answerGenerationService.createAnswer(companion, "К сожалению, собеседник остановил диалог. Для поиска нового собеседника используйте /search");
+        answerGenerationService.createAnswer(companion, "К сожалению, собеседник остановил диалог. Для поиска нового собеседника используйте /search", true);
 
         botUser.setCompanion(null);
         botUser.setState(BotUserState.IDLE);
-        answerGenerationService.createAnswer(botUser, "Поиск нового собеседника...");
+        answerGenerationService.createAnswer(botUser, "Поиск нового собеседника...", true);
         search(botUser);
     }
 
