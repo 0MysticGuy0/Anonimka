@@ -16,9 +16,15 @@ public class AnswerGenerationServiceImpl implements AnswerGenerationService {
 
     @Override
     public void createAnswer(BotUser botUser, String answerText) {
+        createAnswer(botUser, answerText, false);
+    }
+
+    @Override
+    public void createAnswer(BotUser botUser, String answerText, boolean clearLinks) {
         String receiverChatId = botUser.getChatId();
         answerText = "*" + answerText + "*";
         AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, null, null, null, answerText);
+        answerTextMessage.setNeedsToClearLinks(clearLinks);
 
         producerService.produceAnswerMessage(answerTextMessage);
     }

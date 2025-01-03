@@ -73,6 +73,12 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
         return linkedData;
     }
 
+    @Override
+    public void clearUserLinks(String userChatId) {
+        boolean deleteRes = redisTemplate.delete(userChatId);
+        log.info("-=-=-| Deleted messages links for user " + userChatId + " successfully: " + deleteRes);
+    }
+
 
     private void createSenderLink(AnswerMessage answerMessage, Integer sentMessageId){
         String receiverChatId = answerMessage.getReceiverChatId();
