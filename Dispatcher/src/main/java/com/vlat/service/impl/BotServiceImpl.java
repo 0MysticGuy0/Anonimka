@@ -10,6 +10,7 @@ import com.vlat.service.MessageLinkerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.methods.ParseMode;
@@ -19,6 +20,8 @@ import org.telegram.telegrambots.meta.api.objects.File;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+
+import java.util.concurrent.Future;
 
 import static com.vlat.kafkaMessage.enums.FileMessageTypes.*;
 
@@ -72,14 +75,14 @@ public class BotServiceImpl implements BotService {
     }
 
     @Override
-    public Integer sendMessage(AnswerMessage answerMessage) {
+    @Async
+    public void sendMessage(AnswerMessage answerMessage) {
         if (answerMessage instanceof AnswerTextMessage){
-            return sendTextAnswer((AnswerTextMessage) answerMessage);
+            sendTextAnswer((AnswerTextMessage) answerMessage);
         }
         else if(answerMessage instanceof AnswerFileMessage){
-            return sendFileAnswer((AnswerFileMessage) answerMessage);
+            sendFileAnswer((AnswerFileMessage) answerMessage);
         }
-        return null;
     }
 
     private Integer sendTextAnswer(AnswerTextMessage answerTextMessage){

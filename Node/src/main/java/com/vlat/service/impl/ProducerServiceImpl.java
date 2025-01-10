@@ -21,12 +21,12 @@ public class ProducerServiceImpl implements ProducerService {
     private String searchMessageTopic;
 
     @Override
-    public void produceAnswerMessage(AnswerMessage answerMessage) {
+    public synchronized void produceAnswerMessage(AnswerMessage answerMessage) {
         answerMessageKafkaTemplate.send(answerMessageTopic, answerMessage.getReceiverChatId(), answerMessage);
     }
 
     @Override
-    public void produceSearchMessage(SearchMessage searchMessage) {
+    public synchronized void produceSearchMessage(SearchMessage searchMessage) {
         seacrhMessageKafkaTemplate.send(searchMessageTopic, searchMessage.getUserChatId(), searchMessage);
     }
 

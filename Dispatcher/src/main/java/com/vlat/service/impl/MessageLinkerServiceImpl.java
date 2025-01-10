@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 @Service
 @Log4j
@@ -21,15 +22,23 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
     @Autowired
     private final StringRedisTemplate redisTemplate;
 
+    private final ReentrantReadWriteLock readWriteLock = new ReentrantReadWriteLock();
+
     @Override
     public void createLink(AnswerMessage answerMessage, Integer sentMessageId) {
+        readWriteLock.writeLock().lock();
+
         createSenderLink(answerMessage, sentMessageId);
         createReceiverLink(answerMessage, sentMessageId);
+
+        readWriteLock.writeLock().unlock();
     }
 
     @Override
     public Integer getLinkedMessageId(String senderChatId, String receiverChatId, Integer messageId) {
         if(senderChatId == null || messageId == null) return  null;
+
+        readWriteLock.readLock().lock();
 
         Integer linkedMessageId = null;
 
@@ -52,6 +61,7 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
             }
         }
 
+        readWriteLock.readLock().unlock();
         return linkedMessageId;
     }
 
@@ -59,6 +69,7 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
     public String[] getLinkedData(String senderChatId, Integer messageId) {
         if(senderChatId == null || messageId == null) return  null;
 
+        readWriteLock.readLock().lock();
         String[] linkedData = null;
 
         if(redisTemplate.hasKey(senderChatId)){
@@ -71,13 +82,18 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
             }
         }
 
+        readWriteLock.readLock().unlock();
         return linkedData;
     }
 
     @Override
     public void clearUserLinks(String userChatId) {
+        readWriteLock.writeLock().lock();
+
         boolean deleteRes = redisTemplate.delete(userChatId);
         log.info(String.format("-=-=-| Deleted messages links for user %s successfully: %s", userChatId, deleteRes));
+
+        readWriteLock.writeLock().unlock();
     }
 
 

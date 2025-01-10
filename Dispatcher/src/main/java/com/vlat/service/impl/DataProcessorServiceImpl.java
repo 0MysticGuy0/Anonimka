@@ -13,6 +13,7 @@ import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.methods.send.SendSticker;
@@ -33,6 +34,7 @@ public class DataProcessorServiceImpl implements DataProcessorService {
     private final MessageLinkerService messageLinkerService;
 
     @Override
+    @Async
     public void processUpdate(Update update) {
         //if(!update.hasMessage()) return;
 

@@ -12,6 +12,7 @@ import com.vlat.service.MessageProcessorService;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import static com.vlat.bot.BotCommands.*;
@@ -26,6 +27,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
     private final BotUserService botUserService;
 
     @Override
+    @Async
     public void processTextMessage(TextMessage textMessage) {
 
         String authorChatId = textMessage.getAuthorId();
@@ -67,6 +69,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
     }
 
     @Override
+    @Async
     public void processCommandMessage(CommandMessage textMessage) {
         String receiverChatId = textMessage.getAuthorId();
         String command = textMessage.getCommand();
@@ -82,6 +85,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
     }
 
     @Override
+    @Async
     public void processFileMessage(FileMessage fileMessage) {
         String authorChatId = fileMessage.getAuthorId();
         Integer replyToMessageId = fileMessage.getReplyToMessageId();

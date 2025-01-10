@@ -25,18 +25,18 @@ public class ProducerServiceImpl implements ProducerService {
     private String fileMessageTopic;
 
     @Override
-    public void produceTextMessage(TextMessage textMessage) {
+    public synchronized void produceTextMessage(TextMessage textMessage) {
         textMessageKafkaTemplate.send(textMessageTopic, textMessage.getAuthorId(), textMessage);
 
     }
 
     @Override
-    public void produceCommandMessage(CommandMessage commandMessage) {
+    public synchronized void produceCommandMessage(CommandMessage commandMessage) {
         commandMessageKafkaTemplate.send(commandMessageTopic, commandMessage.getAuthorId(), commandMessage);
     }
 
     @Override
-    public void produceFileMessage(FileMessage fileMessage) {
+    public synchronized void produceFileMessage(FileMessage fileMessage) {
         fileMessageKafkaTemplate.send(fileMessageTopic, fileMessage.getAuthorId(), fileMessage);
     }
 }
