@@ -1,5 +1,6 @@
 package com.vlat.service.impl;
 
+import com.vlat.bot.BotAnswers;
 import com.vlat.bot.service.BotCommandsService;
 import com.vlat.kafkaMessage.CommandMessage;
 import com.vlat.kafkaMessage.FileMessage;
@@ -77,8 +78,7 @@ private void processMessage(Message message){
     }
 
     if(!processedMessage){
-        botService.sendMessage(message.getChatId().toString(),
-                "<!Неподдерживаемый тип сообщения!>", message.getMessageId());
+        botService.sendMessage(message.getChatId().toString(), BotAnswers.UNSUPPORTED_MESSAGE_TYPE, message.getMessageId());
     }
     //Sticker Photo Video Voice VideoNote-fileId
 }

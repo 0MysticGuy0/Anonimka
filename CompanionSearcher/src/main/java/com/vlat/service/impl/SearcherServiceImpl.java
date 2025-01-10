@@ -1,11 +1,11 @@
 package com.vlat.service.impl;
 
+import com.vlat.bot.BotAnswers;
 import com.vlat.entity.BotUser;
 import com.vlat.entity.enums.BotUserState;
 import com.vlat.service.BotUserService;
 import com.vlat.service.AnswerGenerationService;
 import com.vlat.service.SearcherService;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 
@@ -111,9 +111,8 @@ public class SearcherServiceImpl implements SearcherService {
         botUserService.saveUser(botUser);
         botUserService.saveUser(companion);
 
-        String foundMessage = "Собеседник найден, общайтесь: \n/stop - остановка диалога\n/next - следующий собеседник";
-        answerGenerationService.createAnswer(botUser, foundMessage);
-        answerGenerationService.createAnswer(companion, foundMessage);
+        answerGenerationService.createAnswer(botUser, BotAnswers.COMPANION_FOUND);
+        answerGenerationService.createAnswer(companion, BotAnswers.COMPANION_FOUND);
 
         log.debug(String.format("-=-=-| CREATED DIALOG FOR: %s AND %s", botUser.getChatId(), companion.getChatId()));
         logCurrentInSearchList();
@@ -130,8 +129,8 @@ public class SearcherServiceImpl implements SearcherService {
         botUserService.saveUser(botUser);
         botUserService.saveUser(companion);
 
-        answerGenerationService.createAnswer(botUser, "Диалог остановлен. Для поиска нового собеседника используйте /search", true);
-        answerGenerationService.createAnswer(companion, "Собеседник остановил дилог. Для поиска нового собеседника используйте /search", true);
+        answerGenerationService.createAnswer(botUser, BotAnswers.STOPPED_DIALOG, true);
+        answerGenerationService.createAnswer(companion, BotAnswers.COMPANION_STOPPED_DIALOG, true);
 
         log.debug(String.format("-=-=-| User %s stopped dialog with %s", botUser.getChatId(), companion.getChatId() ));
     }
@@ -144,7 +143,7 @@ public class SearcherServiceImpl implements SearcherService {
         botUser.setState(BotUserState.IDLE);
         botUserService.saveUser(botUser);
 
-        answerGenerationService.createAnswer(botUser, "Поиск собеседника остановлен. Для возобновления используйте /search");
+        answerGenerationService.createAnswer(botUser, BotAnswers.STOPPED_SEARCH);
 
         log.debug(String.format("-=-=-| User %s stopped search", botUser.getChatId() ));
         logCurrentInSearchList();
@@ -156,11 +155,11 @@ public class SearcherServiceImpl implements SearcherService {
         companion.setState(BotUserState.IDLE);
         companion.setCompanion(null);
         botUserService.saveUser(companion);
-        answerGenerationService.createAnswer(companion, "К сожалению, собеседник остановил диалог. Для поиска нового собеседника используйте /search", true);
+        answerGenerationService.createAnswer(companion, BotAnswers.COMPANION_STOPPED_DIALOG, true);
 
         botUser.setCompanion(null);
         botUser.setState(BotUserState.IDLE);
-        answerGenerationService.createAnswer(botUser, "Поиск нового собеседника...", true);
+        answerGenerationService.createAnswer(botUser, BotAnswers.SEARCHING_NEXT, true);
         search(botUser);
     }
 

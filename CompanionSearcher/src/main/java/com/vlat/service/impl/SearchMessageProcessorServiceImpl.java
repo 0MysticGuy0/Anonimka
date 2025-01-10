@@ -1,5 +1,6 @@
 package com.vlat.service.impl;
 
+import com.vlat.bot.BotAnswers;
 import com.vlat.bot.BotCommands;
 import com.vlat.entity.BotUser;
 import com.vlat.kafkaMessage.SearchMessage;
@@ -39,8 +40,7 @@ public class SearchMessageProcessorServiceImpl implements SearchMessageProcessor
         }
         else{
             log.error(String.format("-=-=-=-=-=-=-| RECEIVED UNKNOWN(unhandled) COMMAND IN SearchMessageProcessorService: %s", command));
-            answerGenerationService.createAnswer(botUser,
-                    "Ошибка! Для отмены используйте /stop");
+            answerGenerationService.createAnswer(botUser, BotAnswers.ERROR);
         }
     }
 }

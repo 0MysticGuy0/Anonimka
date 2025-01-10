@@ -1,5 +1,6 @@
 package com.vlat.service.impl;
 
+import com.vlat.bot.BotAnswers;
 import com.vlat.bot.BotCommands;
 import com.vlat.entity.enums.BotUserState;
 import com.vlat.entity.BotUser;
@@ -43,9 +44,9 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
             replyToMessageId = null;
         }
         if (userState == BotUserState.IN_SEARCH){
-            text = "*Вы находитесь в поиске. Для остановки используйте /stop*";
+            text = String.format("*%s*", BotAnswers.IN_SEARCH);
         }else if(userState == BotUserState.IDLE){
-            text = "*Вы не в диалоге.Для поиска собеседника используйте /search*";
+            text = String.format("*%s*", BotAnswers.NOT_IN_DIALOG);
         }
         else{
             BotUser companion = botUser.getCompanion();
@@ -53,7 +54,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
                 receiverChatId = companion.getChatId();
             }
             else{
-                text = "*Ошибка! Для отмены используйте /stop*";
+                text = String.format("*%s*", BotAnswers.ERROR);
                 senderChatId = null;
                 messageId = null;
                 replyToMessageId = null;
@@ -96,9 +97,9 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
         if(userState != BotUserState.IN_CONVERSATION){
             String text = null;
             if (userState == BotUserState.IN_SEARCH){
-                text = "*Вы находитесь в поиске. Для остановки используйте /stop*";
+                text = String.format("*%s*", BotAnswers.IN_SEARCH);
             }else if(userState == BotUserState.IDLE){
-                text = "*Вы не в диалоге. Для поиска собеседника используйте /search*";
+                text = String.format("*%s*", BotAnswers.NOT_IN_DIALOG);
             }
 
             AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, text);
@@ -110,7 +111,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
                 receiverChatId = companion.getChatId();
             }
             else{
-                String text = "*Ошибка! Для отмены используйте /stop*";
+                String text = String.format("*%s*", BotAnswers.ERROR);
                 AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, text);
                 producerService.produceAnswerMessage(answerTextMessage);
                 log.error("-=-=-=-=-=-=--=-=-| ERROR in message processor service in file-process. Companion = null, but state is IN_CONVERSATION");
@@ -145,7 +146,7 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
             return commandProcessorService.next(botUser);
         }
         else{
-            return "неизвестная команда! Для получения списка комманд введите /help";
+            return BotAnswers.UNKNOWN_COMMAND;
         }
     }
 }
