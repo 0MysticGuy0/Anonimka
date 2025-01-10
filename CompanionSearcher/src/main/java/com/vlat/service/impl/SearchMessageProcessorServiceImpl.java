@@ -38,7 +38,7 @@ public class SearchMessageProcessorServiceImpl implements SearchMessageProcessor
             searcherService.next(botUser);
         }
         else{
-            log.error("-=-=-=-=-=-=-| RECEIVED UNKNOWN(unhandled) COMMAND IN SearchMessageProcessorService: " + command);
+            log.error(String.format("-=-=-=-=-=-=-| RECEIVED UNKNOWN(unhandled) COMMAND IN SearchMessageProcessorService: %s", command));
             answerGenerationService.createAnswer(botUser,
                     "Ошибка! Для отмены используйте /stop");
         }

@@ -51,7 +51,6 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
             BotUser companion = botUser.getCompanion();
             if(companion != null){
                 receiverChatId = companion.getChatId();
-                //text = "Собеседник:\n\n" + text;
             }
             else{
                 text = "*Ошибка! Для отмены используйте /stop*";
@@ -75,8 +74,8 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
         String answer = processCommand(command, botUser);
 
         if (answer != null){
-            answer = "*" + answer + "*";
-            AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, null,null, null, answer);
+            answer = String.format("*%s*", answer);
+            AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, answer);
             producerService.produceAnswerMessage(answerTextMessage);
         }
     }
@@ -102,18 +101,17 @@ public class MessageProcessorServiceImpl implements MessageProcessorService {
                 text = "*Вы не в диалоге. Для поиска собеседника используйте /search*";
             }
 
-            AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, null, null, null, text);
+            AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, text);
             producerService.produceAnswerMessage(answerTextMessage);
         }
         else{
             BotUser companion = botUser.getCompanion();
             if(companion != null){
                 receiverChatId = companion.getChatId();
-                //text = "Собеседник:\n" + text;
             }
             else{
                 String text = "*Ошибка! Для отмены используйте /stop*";
-                AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, null,null, null, text);
+                AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, text);
                 producerService.produceAnswerMessage(answerTextMessage);
                 log.error("-=-=-=-=-=-=--=-=-| ERROR in message processor service in file-process. Companion = null, but state is IN_CONVERSATION");
                 return;

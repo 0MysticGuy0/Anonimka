@@ -23,7 +23,7 @@ public class AnswerConsumerServiceImpl implements AnswerConsumerService {
     @Override
     @KafkaHandler
     public void getAnswerTextMessage(AnswerTextMessage answerTextMessage) {
-        log.debug("-=-=-| Received answer-message for " + answerTextMessage.getReceiverChatId());
+        log.debug(String.format("-=-=-| Received answer-message for %s", answerTextMessage.getReceiverChatId()));
         botService.sendMessage(answerTextMessage);
         if(answerTextMessage.isNeedsToClearLinks()){
             messageLinkerService.clearUserLinks(answerTextMessage.getReceiverChatId());
@@ -33,7 +33,7 @@ public class AnswerConsumerServiceImpl implements AnswerConsumerService {
     @Override
     @KafkaHandler
     public void getAnswerFileMessage(AnswerFileMessage answerFileMessage) {
-        log.debug("-=-=-| Received answer-file-message for " + answerFileMessage.getReceiverChatId());
+        log.debug(String.format("-=-=-| Received answer-file-message for %s", answerFileMessage.getReceiverChatId()));
         botService.sendMessage(answerFileMessage);
     }
 }

@@ -22,8 +22,8 @@ public class AnswerGenerationServiceImpl implements AnswerGenerationService {
     @Override
     public void createAnswer(BotUser botUser, String answerText, boolean clearLinks) {
         String receiverChatId = botUser.getChatId();
-        answerText = "*" + answerText + "*";
-        AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, null, null, null, answerText);
+        answerText = String.format("*%s*", answerText);
+        AnswerTextMessage answerTextMessage = new AnswerTextMessage(receiverChatId, answerText);
         answerTextMessage.setNeedsToClearLinks(clearLinks);
 
         producerService.produceAnswerMessage(answerTextMessage);

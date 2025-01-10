@@ -29,7 +29,7 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
     @Override
     @KafkaListener(topics = "command-message-topic")
     public void getCommandMessage(CommandMessage commandMessage) {
-        log.debug("-=-=-| Received command-message: " + commandMessage.getCommand() + " from " + commandMessage.getAuthorId());
+        log.debug(String.format("-=-=-| Received command-message: %s from %s", commandMessage.getCommand(), commandMessage.getAuthorId() ));
         messageProcessorService.processCommandMessage(commandMessage);
     }
 

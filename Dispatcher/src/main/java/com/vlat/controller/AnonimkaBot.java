@@ -45,7 +45,7 @@ public class AnonimkaBot extends TelegramLongPollingBot {
         try {
             execute(setMyCommands);
         } catch (TelegramApiException e) {
-            log.error("-=-=-=-=-=-| ERROR while trying to create menu with commands: " + e.getMessage());
+            log.error(String.format("-=-=-=-=-=-| ERROR while trying to create menu with commands: %s", e.getMessage()));
         }
     }
 

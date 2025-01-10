@@ -23,7 +23,7 @@ public class BotUserServiceImpl implements BotUserService {
         }
 
         BotUser newBotUser = botUserRepository.save(new BotUser(chatId));
-        System.out.println("\n-=-=-=-=-=-| NEW USER! |-=-=-=-=-=-\n" + newBotUser + "\n");
+        System.out.printf("\n-=-=-=-=-=-| NEW USER! |-=-=-=-=-=-\n%s\n", newBotUser.toString());
         return newBotUser;
     }
 
@@ -36,11 +36,6 @@ public class BotUserServiceImpl implements BotUserService {
     @Override
     public List<BotUser> getAllUsersInSearch() {
         List<BotUser> usersInSearch = botUserRepository.findAllUsersInSearch();
-
-//        System.out.println("-=-=-=-=-=-!-=-=-=-=-=-=-");
-//        usersInSearch.forEach(System.out::println);
-//        System.out.println("-=-=-=-=-=-!-=-=-=-=-=-=-");
-
         return usersInSearch;
     }
 }

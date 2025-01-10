@@ -37,7 +37,7 @@ public class SearcherServiceImpl implements SearcherService {
             search(user);
         }
 
-        log.debug("Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:\n" + importedUsers.toString());
+        log.debug(String.format("Imported saved users IN_SEARCH from DB and restarted search for them because of service restart:\n%s", importedUsers));
 
     }
 
@@ -65,7 +65,7 @@ public class SearcherServiceImpl implements SearcherService {
             }
         }
         else{
-            log.error("-=-=-=-=-=--=-=-| ERROR! DONT SEARCH companion because users state is not IDLE: " + botUser);
+            log.error(String.format("-=-=-=-=-=--=-=-| ERROR! DONT SEARCH companion because users state is not IDLE: %s", botUser));
         }
     }
 
@@ -76,11 +76,11 @@ public class SearcherServiceImpl implements SearcherService {
             if (companion != null){
                 scipCompanion(botUser);
             }else{
-                log.error("-=-=-=-=-=-=-=-| ERROR! state is IN_CONVERSATION, but companion = null for " + botUser);
+                log.error(String.format("-=-=-=-=-=-=-=-| ERROR! state is IN_CONVERSATION, but companion = null for %s", botUser));
             }
         }
         else{
-            log.error("-=-=-=-=-=--=-=-| ERROR! Don't do NEXT companion because users state is not IN_CONVERSATION: " + botUser);
+            log.error(String.format("-=-=-=-=-=--=-=-| ERROR! Don't do NEXT companion because users state is not IN_CONVERSATION: %s", botUser));
         }
     }
 
@@ -97,7 +97,7 @@ public class SearcherServiceImpl implements SearcherService {
         botUserService.saveUser(botUser);
         usersInSearch.add(botUser);
 
-        log.debug("-=-=-| User " + botUser.getChatId() + " added to inSearch list");
+        log.debug(String.format("-=-=-| User %s added to inSearch list", botUser.getChatId() ));
         logCurrentInSearchList();
     }
 
@@ -115,7 +115,7 @@ public class SearcherServiceImpl implements SearcherService {
         answerGenerationService.createAnswer(botUser, foundMessage);
         answerGenerationService.createAnswer(companion, foundMessage);
 
-        log.debug("-=-=-| CREATED DIALOG FOR: " + botUser.getChatId() + " & " + companion.getChatId());
+        log.debug(String.format("-=-=-| CREATED DIALOG FOR: %s AND %s", botUser.getChatId(), companion.getChatId()));
         logCurrentInSearchList();
     }
 
@@ -133,20 +133,20 @@ public class SearcherServiceImpl implements SearcherService {
         answerGenerationService.createAnswer(botUser, "Диалог остановлен. Для поиска нового собеседника используйте /search", true);
         answerGenerationService.createAnswer(companion, "Собеседник остановил дилог. Для поиска нового собеседника используйте /search", true);
 
-        log.debug("-=-=-| User "+ botUser.getChatId() + " stopped dialog with " + companion.getChatId());
+        log.debug(String.format("-=-=-| User %s stopped dialog with %s", botUser.getChatId(), companion.getChatId() ));
     }
 
     private void stopSearch(BotUser botUser){
         boolean removeRes = usersInSearch.remove(botUser);
 
-        log.debug(botUser.getChatId() + " removed successfully from searchList: " + removeRes);
+        log.debug(String.format("%s removed successfully from searchList: %b", botUser.getChatId(), removeRes));
 
         botUser.setState(BotUserState.IDLE);
         botUserService.saveUser(botUser);
 
-        answerGenerationService.createAnswer(botUser, "Поиск собеседника остановлен. Для возобновления испольуйте /search");
+        answerGenerationService.createAnswer(botUser, "Поиск собеседника остановлен. Для возобновления используйте /search");
 
-        log.debug("-=-=-| User " + botUser.getChatId() + " stopped search");
+        log.debug(String.format("-=-=-| User %s stopped search", botUser.getChatId() ));
         logCurrentInSearchList();
     }
 

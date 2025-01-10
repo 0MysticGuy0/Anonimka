@@ -17,4 +17,8 @@ public class AnswerTextMessage extends AnswerMessage{
         super(receiverChatId, senderChatId, replyToMessageId, messageId);
         this.text = text;
     }
+    public AnswerTextMessage(String receiverChatId, String text) {
+        super(receiverChatId, null, null, null);
+        this.text = text;
+    }
 }

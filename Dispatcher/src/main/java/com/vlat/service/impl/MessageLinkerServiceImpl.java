@@ -45,7 +45,8 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
                     try {
                         linkedMessageId = Integer.parseInt(receiverMessageId);
                     }catch (NumberFormatException ex){
-                        log.error("Cant parse linked message ID: " + senderChatId + " -> " + messageId + " - " + data + " | (error parsing " + receiverMessageId +")");
+                        log.error(String.format(
+                                "Cant parse linked message ID: %s -> %s - %s | (error parsing %s )", senderChatId, messageId, data, receiverMessageId  ));
                     }
                 }
             }
@@ -76,7 +77,7 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
     @Override
     public void clearUserLinks(String userChatId) {
         boolean deleteRes = redisTemplate.delete(userChatId);
-        log.info("-=-=-| Deleted messages links for user " + userChatId + " successfully: " + deleteRes);
+        log.info(String.format("-=-=-| Deleted messages links for user %s successfully: %s", userChatId, deleteRes));
     }
 
 
@@ -88,7 +89,7 @@ public class MessageLinkerServiceImpl implements MessageLinkerService {
         if(senderChatId == null || senderMessageId == null || sentMessageId == null) return;
 
         String data;
-        data = receiverChatId + ":" + sentMessageId;
+        data = String.format("%s:%s", receiverChatId, sentMessageId);
         redisTemplate.opsForHash().put(senderChatId, senderMessageId.toString(), data);
     }
     private void createReceiverLink(AnswerMessage answerMessage, Integer sentMessageId){

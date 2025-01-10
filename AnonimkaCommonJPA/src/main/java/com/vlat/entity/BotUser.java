@@ -33,11 +33,13 @@ public class BotUser implements Serializable {
 
     @Override
     public String toString() {
-        return "BotUser{" +
-                "chatId='" + chatId + '\'' +
-                ", state=" + state +
-                ", companion-id=" + (companion!=null?companion.getChatId():null) +
-                '}';
+        StringBuilder data = new StringBuilder();
+        data.append("BotUser{")
+                .append("chatId='").append(chatId)
+                .append("', state=").append(state)
+                .append(", companion-id=").append((companion!=null?companion.getChatId():null))
+                .append('}');
+        return  data.toString();
     }
 
     @Override

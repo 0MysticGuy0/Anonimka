@@ -60,8 +60,6 @@ private void processMessage(Message message){
         processedMessage = true;
     }
     if(message.hasSticker()){
-        //TODO Анимированный стикер приходят неправильно.
-        //TODO по стикеру нельзя получить стикерпак
         processFileMessage(message, STICKER);
         processedMessage = true;
     }
@@ -91,7 +89,7 @@ private void processMessage(Message message){
         Integer messageId = message.getMessageId();
         Integer replyToId = getReplyToMessageId(message);
 
-        log.debug("Received MESSAGE: \n\t" + messageText + " |-|-| BY " + message.getFrom());
+        log.debug(String.format("Received MESSAGE: \n\t %s |-|-| BY %s", messageText, message.getFrom()));
 
         if(botCommandsService.isCommand(messageText)){
             processCommand(chatId, messageText);
@@ -136,7 +134,7 @@ private void processMessage(Message message){
             return message.getVideoNote().getFileId();
         }
         else{
-            log.error("-=-=-=-| UNKNOWN FILE TYPE RECEIVED FROM USER AND STARTED PROCESSING");
+            log.error(String.format("-=-=-=-| UNKNOWN FILE TYPE RECEIVED FROM USER AND STARTED PROCESSING: %s", fileType));
             return null;
         }
     }
@@ -163,7 +161,7 @@ private void processMessage(Message message){
                 Integer dataMessageId = Integer.parseInt(linkedData[1]);
                 botService.editMessageText(dataChatId, dataMessageId, text);
             } catch (NumberFormatException e) {
-                log.error("-=-=-=-| Didn't edited message at companion beacuse couldn't parse messageId: " + linkedData);
+                log.error(String.format("-=-=-=-| Didn't edited message at companion because couldn't parse messageId: %s", linkedData));
 
             }
         }

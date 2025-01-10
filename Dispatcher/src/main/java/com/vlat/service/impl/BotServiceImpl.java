@@ -42,7 +42,7 @@ public class BotServiceImpl implements BotService {
                     return sendedMessage.getMessageId();
                 }
             } catch (TelegramApiException e) {
-                log.error("-=-=-| ERROR while execute sendMessage: " + e.getMessage());
+                log.error(String.format("-=-=-| ERROR while execute sendMessage: %s", e.getMessage()));
                 e.printStackTrace();
             }
         }
@@ -59,7 +59,7 @@ public class BotServiceImpl implements BotService {
         try{
             bot.execute(editMessage);
         }catch (TelegramApiException e){
-            log.error("-=-=-| ERROR while execute editTextMessage: " + e.getMessage());
+            log.error(String.format("-=-=-| ERROR while execute editTextMessage: %s", e.getMessage()));
 
         }
     }
@@ -126,7 +126,7 @@ public class BotServiceImpl implements BotService {
             tgFile = bot.execute(getFile);
             file = bot.downloadFile(tgFile);
         } catch (TelegramApiException e) {
-            log.error("-=-=-| Exception while sendingFileAnswer: getFile / downloadFile:\n" + e.getMessage());
+            log.error(String.format("-=-=-| Exception while sendingFileAnswer: getFile / downloadFile:\n %s", e.getMessage()));
             e.printStackTrace();
         }
 
@@ -163,7 +163,7 @@ public class BotServiceImpl implements BotService {
                 sentMessage = bot.execute(sendVideoNote);
             }
         } catch (TelegramApiException e) {
-            log.error("-=-=-| Exception while executing send...(file)" + fileType + " :\n" + e.getMessage());
+            log.error(String.format("-=-=-| Exception while executing send...(file) %s:\n%s", fileType, e.getMessage() ));
             e.printStackTrace();
         }
 

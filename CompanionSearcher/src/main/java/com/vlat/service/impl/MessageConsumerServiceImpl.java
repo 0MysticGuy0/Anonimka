@@ -23,7 +23,7 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
     @Override
     @KafkaListener(topics = "search-message-topic")
     public void getSearchMessage(SearchMessage searchMessage) {
-        log.debug("-=-=| Received search-message: " + searchMessage.getCommand() + " from " + searchMessage.getUserChatId());
+        log.debug(String.format("-=-=| Received search-message: %s from %s",searchMessage.getCommand(), searchMessage.getUserChatId() ));
         searchMessageProcessorService.processSearchMessage(searchMessage);
     }
 }
