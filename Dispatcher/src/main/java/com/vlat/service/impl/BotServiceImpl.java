@@ -10,14 +10,18 @@ import com.vlat.service.MessageLinkerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.methods.ParseMode;
 import org.telegram.telegrambots.meta.api.methods.send.*;
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.File;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+
+import java.util.concurrent.Future;
 
 import static com.vlat.kafkaMessage.enums.FileMessageTypes.*;
 
@@ -41,11 +45,26 @@ public class BotServiceImpl implements BotService {
                     return sendedMessage.getMessageId();
                 }
             } catch (TelegramApiException e) {
-                log.error("-=-=-| ERROR while execute sendMessage: " + e.getMessage());
+                log.error(String.format("-=-=-| ERROR while execute sendMessage: %s", e.getMessage()));
                 e.printStackTrace();
             }
         }
         return null;
+    }
+
+
+    @Override
+    public void editMessageText(String chatId, Integer messageId, String newText) {
+        EditMessageText editMessage = EditMessageText.builder()
+                .chatId(chatId)
+                .messageId(messageId)
+                .text(newText).build();
+        try{
+            bot.execute(editMessage);
+        }catch (TelegramApiException e){
+            log.error(String.format("-=-=-| ERROR while execute editTextMessage: %s", e.getMessage()));
+
+        }
     }
 
     @Override
@@ -56,14 +75,14 @@ public class BotServiceImpl implements BotService {
     }
 
     @Override
-    public Integer sendMessage(AnswerMessage answerMessage) {
+    @Async
+    public void sendMessage(AnswerMessage answerMessage) {
         if (answerMessage instanceof AnswerTextMessage){
-            return sendTextAnswer((AnswerTextMessage) answerMessage);
+            sendTextAnswer((AnswerTextMessage) answerMessage);
         }
         else if(answerMessage instanceof AnswerFileMessage){
-            return sendFileAnswer((AnswerFileMessage) answerMessage);
+            sendFileAnswer((AnswerFileMessage) answerMessage);
         }
-        return null;
     }
 
     private Integer sendTextAnswer(AnswerTextMessage answerTextMessage){
@@ -90,9 +109,11 @@ public class BotServiceImpl implements BotService {
         Integer replyToMessageId = answerMessage.getReplyToMessageId();
         replyToMessageId = messageLinkerService.getLinkedMessageId(senderChatId, receiverChatId, replyToMessageId);
 
-
-        InputFile inputFile = getInputFile(fileId);
-        Integer sentMessageId =  executeSendFile(fileType, receiverChatId, inputFile, replyToMessageId);
+        InputFile inputFile = null;
+        if(fileType != STICKER) {
+            inputFile = getInputFile(fileId);
+        }
+        Integer sentMessageId =  executeSendFile(fileType, receiverChatId, inputFile, fileId, replyToMessageId);
 
         messageLinkerService.createLink(answerMessage, sentMessageId);
 
@@ -108,7 +129,7 @@ public class BotServiceImpl implements BotService {
             tgFile = bot.execute(getFile);
             file = bot.downloadFile(tgFile);
         } catch (TelegramApiException e) {
-            log.error("-=-=-| Exception while sendingFileAnswer: getFile / downloadFile:\n" + e.getMessage());
+            log.error(String.format("-=-=-| Exception while sendingFileAnswer: getFile / downloadFile:\n %s", e.getMessage()));
             e.printStackTrace();
         }
 
@@ -119,7 +140,7 @@ public class BotServiceImpl implements BotService {
         return new InputFile(file);
     }
 
-    private Integer executeSendFile(FileMessageTypes fileType, String receiverChatId, InputFile inputFile, Integer replyToMessageId) {
+    private Integer executeSendFile(FileMessageTypes fileType, String receiverChatId, InputFile inputFile, String fileId, Integer replyToMessageId) {
         Message sentMessage = null;
         try{
             if (fileType == PHOTO){
@@ -128,7 +149,7 @@ public class BotServiceImpl implements BotService {
                 sendPhoto.setReplyToMessageId(replyToMessageId);
                 sentMessage = bot.execute(sendPhoto);
             } else if (fileType == STICKER){
-                SendSticker sendSticker = new SendSticker(receiverChatId, inputFile);
+                SendSticker sendSticker = new SendSticker(receiverChatId, new InputFile(fileId));
                 sendSticker.setReplyToMessageId(replyToMessageId);
                 sentMessage = bot.execute(sendSticker);
             } else if (fileType == VOICE){
@@ -145,7 +166,7 @@ public class BotServiceImpl implements BotService {
                 sentMessage = bot.execute(sendVideoNote);
             }
         } catch (TelegramApiException e) {
-            log.error("-=-=-| Exception while executing send...(file)" + fileType + " :\n" + e.getMessage());
+            log.error(String.format("-=-=-| Exception while executing send...(file) %s:\n%s", fileType, e.getMessage() ));
             e.printStackTrace();
         }
 

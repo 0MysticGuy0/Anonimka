@@ -4,6 +4,7 @@ import com.vlat.kafkaMessage.AnswerFileMessage;
 import com.vlat.kafkaMessage.AnswerTextMessage;
 import com.vlat.service.AnswerConsumerService;
 import com.vlat.service.BotService;
+import com.vlat.service.MessageLinkerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j;
 import org.springframework.kafka.annotation.KafkaHandler;
@@ -17,18 +18,22 @@ import org.springframework.stereotype.Service;
 public class AnswerConsumerServiceImpl implements AnswerConsumerService {
 
     private final BotService botService;
+    private final MessageLinkerService messageLinkerService;
 
     @Override
     @KafkaHandler
     public void getAnswerTextMessage(AnswerTextMessage answerTextMessage) {
-        log.debug("-=-=-| Received answer-message for " + answerTextMessage.getReceiverChatId());
+        log.debug(String.format("-=-=-| Received answer-message for %s", answerTextMessage.getReceiverChatId()));
         botService.sendMessage(answerTextMessage);
+        if(answerTextMessage.isNeedsToClearLinks()){
+            messageLinkerService.clearUserLinks(answerTextMessage.getReceiverChatId());
+        }
     }
 
     @Override
     @KafkaHandler
     public void getAnswerFileMessage(AnswerFileMessage answerFileMessage) {
-        log.debug("-=-=-| Received answer-file-message for " + answerFileMessage.getReceiverChatId());
+        log.debug(String.format("-=-=-| Received answer-file-message for %s", answerFileMessage.getReceiverChatId()));
         botService.sendMessage(answerFileMessage);
     }
 }

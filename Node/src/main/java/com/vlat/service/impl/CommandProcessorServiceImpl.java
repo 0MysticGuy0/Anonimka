@@ -1,15 +1,14 @@
 package com.vlat.service.impl;
 
+import com.vlat.bot.BotAnswers;
 import com.vlat.bot.BotCommands;
 import com.vlat.bot.service.BotCommandsService;
 import com.vlat.entity.enums.BotUserState;
 import com.vlat.entity.BotUser;
-import com.vlat.service.BotUserService;
 import com.vlat.kafkaMessage.SearchMessage;
 import com.vlat.service.CommandProcessorService;
 import com.vlat.service.ProducerService;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -26,7 +25,7 @@ public class CommandProcessorServiceImpl implements CommandProcessorService {
 
     @Override
     public String start() {
-        return "Вас приветствует Анонимка - телеграм-бот для анонимного общения разных людей.\nСписок команд: /help\n\n/search - запустить поиск";
+        return BotAnswers.COMMAND_START;
     }
 
     @Override
@@ -38,13 +37,13 @@ public class CommandProcessorServiceImpl implements CommandProcessorService {
             SearchMessage searchMessage = new SearchMessage(userChatId, BotCommands.SEARCH);
             producerService.produceSearchMessage(searchMessage);
 
-            return "Идёт поиск собеседника...";
+            return BotAnswers.COMMAND_SEARCH;
         }
         else if(state == BotUserState.IN_CONVERSATION){
-            return "У вас уже есть собеседник.\nДля поиска следующего используйте /next\nДля остановки используйте /stop";
+            return BotAnswers.ALREADY_HAS_COMPANION;
         }
         else{
-            return "Вы уже находитесь в поиске. Для остановки используйте /stop";
+            return BotAnswers.ALREADY_IN_SEARCH;
         }
     }
 
@@ -56,7 +55,7 @@ public class CommandProcessorServiceImpl implements CommandProcessorService {
             SearchMessage searchMessage = new SearchMessage(userChatId, BotCommands.STOP);
             producerService.produceSearchMessage(searchMessage);
 
-            return "Остановка...";
+            return BotAnswers.COMMAND_STOP;
         }
         return null;
     }
@@ -70,12 +69,12 @@ public class CommandProcessorServiceImpl implements CommandProcessorService {
             SearchMessage searchMessage = new SearchMessage(userChatId, BotCommands.NEXT);
             producerService.produceSearchMessage(searchMessage);
 
-            return "Поиск следующего собеседника...";
+            return BotAnswers.COMMAND_NEXT;
 
         }else if(state == BotUserState.IN_SEARCH){
-            return "Вы уже находитесь в поиске. Для отмены используйте /stop";
+            return BotAnswers.ALREADY_IN_SEARCH;
         }
-        return "Вы не находитесь в диалоге. Для поиска собеседника используйте /search";
+        return BotAnswers.NOT_IN_DIALOG;
     }
 
     @Override

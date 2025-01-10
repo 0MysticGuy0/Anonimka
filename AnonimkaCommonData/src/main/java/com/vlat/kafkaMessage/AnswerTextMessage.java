@@ -11,9 +11,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class AnswerTextMessage extends AnswerMessage{
     private String text;
+    private boolean needsToClearLinks = false;
 
     public AnswerTextMessage(String receiverChatId, String senderChatId, Integer replyToMessageId, Integer messageId, String text) {
         super(receiverChatId, senderChatId, replyToMessageId, messageId);
+        this.text = text;
+    }
+    public AnswerTextMessage(String receiverChatId, String text) {
+        super(receiverChatId, null, null, null);
         this.text = text;
     }
 }

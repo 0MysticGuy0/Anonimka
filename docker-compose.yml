@@ -16,6 +16,8 @@ services:
       TG_BOT_TOKEN: ${BOT_TOKEN}
       TG_BOT_USERNAME: ${BOT_USERNAME}
       KAFKA_URL: ${KAFKA_URL}
+      REDIS_LINKS_URL: ${REDIS_LINKS_URL}
+      REDIS_LINKS_PORT: ${REDIS_LINKS_PORT}
     ports:
       - "8100:8100"
     volumes:
@@ -136,14 +138,14 @@ services:
     networks:
       - anonimka_network
 
-  redis:
+  anonimka-links-redis:
     image: redis:7.2.4
-    container_name: anonimka_redis
+    container_name: anonimka_links_redis_c
     restart: always
     ports:
-      - "9979:9979"
+      - ${REDIS_LINKS_PORT}:6379
     environment:
-      - REDIS_PORT=9979
+      - REDIS_PORT=6379
     networks:
       - anonimka_network
 
