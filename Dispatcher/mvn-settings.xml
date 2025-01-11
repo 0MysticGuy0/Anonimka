@@ -132,7 +132,7 @@ under the License.
     -->
   <server>
     <id>my-nexus</id>
-    <username>vlat</username>
+    <username>Vlat</username>
     <password>31415926Zdec</password>
   </server>
   </servers>
@@ -173,7 +173,7 @@ under the License.
         <mirror>
             <id>nexus-maven-repo</id>
             <mirrorOf>external:http:*</mirrorOf>
-            <url>http://192.168.43.86:8081/repository/vlat-maven-repo/</url>
+            <url>http://77.222.60.25:8081/repository/vlat-maven-repo/</url>
             <blocked>false</blocked>
 	    </mirror>
    
