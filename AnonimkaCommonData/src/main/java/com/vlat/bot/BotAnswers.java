@@ -5,7 +5,7 @@ import static com.vlat.bot.BotCommands.*;
 public abstract class BotAnswers {
 
     public static final String COMPANION_FOUND = String.format(
-            "Собеседник найден, общайтесь: \n%s - остановка диалога\n/%s- следующий собеседник", STOP, NEXT);
+            "Собеседник найден, общайтесь: \n%s - остановка диалога\n%s - следующий собеседник", STOP, NEXT);
     public static final String STOPPED_DIALOG = String.format(
             "Диалог остановлен. Для поиска нового собеседника используйте %s", SEARCH);
     public static final String COMPANION_STOPPED_DIALOG = String.format(
